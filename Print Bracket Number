@@ -1,0 +1,51 @@
+Input:  str = "(aa(bdc))p(dee)"
+Output: 1 2 2 1 3 3
+Explanation: The highlighted brackets in
+the given string (aa(bdc))p(dee) are
+assigned the numbers as: 1 2 2 1 3 3.
+
+Input:  str = "(((()("
+Output: 1 2 3 4 4 5
+Explanation: The highlighted brackets in
+the given string (((()( are assigned
+the numbers as: 1 2 3 4 4 5
+
+ANSWER :- 
+
+class Solution {
+       ArrayList<Integer> bracketNumbers(String str) {
+        
+        // Stack of val corresponding brackets
+        Stack<Integer>st = new Stack<>();
+        
+        //For output return
+        ArrayList<Integer> lst = new ArrayList<>();
+        
+       // taking val =1 for first bracket '('
+        int val =1 ;
+        
+        //Traversing the whole String
+        for(int i=0; i<str.length(); i++)
+        {
+            //Taking 1 character from string
+            char ch = str.charAt(i);
+            
+            //check condition if "(" then push into stack and add to lst also 
+            //increment the val by +1 for each push
+            if(ch=='(')
+            {
+                st.push(val);
+                lst.add(st.peek());
+                val++;
+            }
+            //if ")" then just put to lst
+            else if(ch==')')
+            {
+                lst.add(st.pop());
+            }
+        }
+        
+        //returning list;
+        return lst;
+    }
+};
