@@ -1,0 +1,47 @@
+Given a sorted linked list, delete all nodes that have duplicate numbers (all occurrences), leaving only numbers that appear once in the original list, and return the head of the modified linked list. 
+
+Examples:
+
+Input: Linked List = 23->28->28->35->49->49->53->53
+Output: 23 35
+Explanation: 
+The duplicate numbers are 28, 49 and 53 which are removed from the list.
+
+Input: Linked List = 11->11->11->11->75->75
+Output: Empty list
+Explanation: 
+All the nodes in the linked list have duplicates. Hence the resultant list would be empty.4
+
+ANSWER:-
+
+public Node removeAllDuplicates(Node head) {
+        if (head == null) return null;
+
+        // Dummy node to handle edge cases easily
+        Node dummy = new Node(0);
+        dummy.next = head;
+
+        Node prev = dummy;
+        Node curr = head;
+
+        while (curr != null) {
+            boolean isDuplicate = false;
+
+            // Check for duplicates
+            while (curr.next != null && curr.data == curr.next.data) {
+                curr = curr.next;
+                isDuplicate = true;
+            }
+
+            if (isDuplicate) {
+                // Skip all duplicates
+                prev.next = curr.next;
+            } else {
+                // No duplicate, move prev pointer
+                prev = prev.next;
+            }
+
+            curr = curr.next;
+        }
+
+        return dummy.next;
