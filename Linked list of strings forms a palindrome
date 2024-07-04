@@ -1,0 +1,28 @@
+Given a linked list with string data, check whether the combined string formed is palindrome. If the combined string is palindrome then return true otherwise return false.
+
+Example:
+
+Input:
+  A->BC->D->DCB->A
+Output : true
+Explanation: As string "abcddcba" is palindrome the function should return true.
+
+ANSWER:-
+
+   public boolean compute(Node root) {
+        String s = "";
+        while(root != null){
+            s += root.data;
+            root = root.next;
+        }
+        int i = 0;
+        int j = s.length() - 1;
+        while(i <= j){
+            if(s.charAt(i) != s.charAt(j)){
+                return false;
+            }
+            i++;
+            j--;
+        }
+        return true;
+    }
