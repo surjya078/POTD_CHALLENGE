@@ -1,0 +1,51 @@
+Given a Binary Tree and an integer target. Find all the ancestors of the given target.
+
+Note:
+
+The ancestor of node x is node y, which is at the upper level of node x, and x is directly connected with node y. Consider multiple levels of ancestors to solve this problem.
+In case there are no ancestors available, return an empty list.
+Examples:
+
+Input:
+         1
+       /   \
+      2     3
+    /  \    /  \
+   4   5  6   8
+  /
+ 7
+target = 7
+Output: [4 2 1]
+Explanation: The given target is 7, if we go above the level of node 7, then we find 4, 2 and 1. Hence the ancestors of node 7 are 4 2 and 1.
+
+ANSWER:-
+
+class Solution {
+
+     public ArrayList<Integer> Ancestors(Node root, int target) {
+        ArrayList<Integer> ans = new ArrayList<>();
+       
+        dfs(root, ans, target);
+        
+        return ans;
+        
+    }
+    public boolean dfs (Node root, ArrayList<Integer> ans, int target ){
+        
+        
+        if(root == null) return false;
+        
+        if(root.data==target) return true;
+        
+        boolean left = dfs(root.left, ans, target);
+        boolean right = dfs(root.right, ans, target);
+        
+        if(left||right){
+            ans.add(root.data);
+            return true;
+        }
+        
+        return false;
+        
+    }
+}
