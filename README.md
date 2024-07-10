@@ -1,1 +1,1 @@
-it contains all problem question with answer that are ask in various companies and i add all the questions that i solve in daily basis
+It contains all problem questions with answers that are asked in various companies, and I add all the questions I solve on a daily basis.
