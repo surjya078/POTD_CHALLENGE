@@ -1,0 +1,80 @@
+You are given a weighted undirected graph having n vertices numbered from 1 to n and m edges along with their weights. Find the shortest path between the vertex 1 and the vertex n,  if there exists a path, and return a list of integers whose first element is the weight of the path, and the rest consist of the nodes on that path. If no path exists, then return a list containing a single element -1.
+
+The input list of edges is as follows - {a, b, w}, denoting there is an edge between a and b, and w is the weight of that edge.
+
+Note: The driver code here will first check if the weight of the path returned is equal to the sum of the weights along the nodes on that path, if equal it will output the weight of the path, else -2. In case the list contains only a single element (-1) it will simply output -1. 
+
+Examples :
+
+Input: n = 5, m= 6, edges = [[1, 2, 2], [2, 5, 5], [2, 3, 4], [1, 4, 1], [4, 3, 3], [3, 5, 1]]
+Output: 5
+Explanation: Shortest path from 1 to n is by the path 1 4 3 5 whose weight is 5. 
+Input: n = 2, m= 1, edges = [[1, 2, 2]]
+Output: 2
+Explanation: Shortest path from 1 to 2 is by the path 1 2 whose weight is 2. 
+Input: n = 2, m= 0, edges = [ ]
+Output: -1
+Explanation: Since there are no edges, so no answer is possible.
+
+
+ANSWER:-
+
+class Solution {
+    public List<Integer> shortestPath(int n, int m, int edges[][]) {
+        
+        List<List<int[]>> ars=new ArrayList<>();
+        for(int i=0; i<=n; i++){
+            ars.add(new ArrayList<>());
+        }
+        
+        for(int[] edge: edges){
+            int start=edge[0];
+            int end=edge[1];
+            int weight=edge[2];
+            
+            ars.get(start).add(new int[]{end,weight});
+            ars.get(end).add(new int[]{start,weight});
+        }
+
+        PriorityQueue<int[]> q=new PriorityQueue<>((a,b)->a[1]-b[1]);
+        int[] dist=new int[n+1];
+        int[] prev=new int[n+1];
+        Arrays.fill(dist,Integer.MAX_VALUE);
+        Arrays.fill(prev,-1);
+        dist[1]=0;
+
+        q.offer(new int[]{1,0});
+
+        while(!q.isEmpty()){
+    
+            int[] previous=q.poll();
+            int prevstart=previous[0];
+            int prevdist=previous[1];
+            
+            for(int[] current: ars.get(prevstart)){
+                int end=current[0];
+                int currentweight=current[1];
+                
+                if(dist[end]>prevdist+currentweight){
+                   dist[end]=prevdist+currentweight;
+                   prev[end]=prevstart;
+                   q.offer(new int[]{end,dist[end]});
+                }
+                
+            }
+        }
+        List<Integer> ans=new ArrayList<>();
+        
+        if (dist[n] == Integer.MAX_VALUE) {  
+            ans.add(-1);
+            return ans;
+        }
+        
+        for (int at = n; at != -1; at = prev[at]) {
+            ans.add(at);
+        }
+        Collections.reverse(ans);
+        ans.add(0, dist[n]);
+        return ans;
+    }
+}
