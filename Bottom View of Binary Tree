@@ -1,0 +1,80 @@
+Given a binary tree, return an array where elements represent the bottom view of the binary tree from left to right.
+
+Note: If there are multiple bottom-most nodes for a horizontal distance from the root, then the latter one in the level traversal is considered. For example, in the below diagram, 3 and 4 are both the bottommost nodes at a horizontal distance of 0, here 4 will be considered.
+
+                      20
+                    /    \
+                  8       22
+                /   \     /   \
+              5      3 4     25
+                     /    \      
+                 10       14
+
+For the above tree, the output should be 5 10 4 14 25.
+
+Examples :
+
+Input:
+       1
+     /   \
+    3     2
+Output: 3 1 2
+Explanation: First case represents a tree with 3 nodes and 2 edges where root is 1, left child of 1 is 3 and right child of 1 is 2.
+
+Thus bottom view of the binary tree will be 3 1 2.
+Input:
+         10
+       /    \
+      20    30
+     /  \
+    40   60
+Output: 40 20 60 30
+
+
+ANSWER :-
+
+
+class Solution
+{
+    //Function to return a list containing the bottom view of the given tree.
+    public ArrayList <Integer> bottomView(Node root)
+    {
+        // Code here
+        Queue<Pair> q = new ArrayDeque<>();
+        Map<Integer, Integer> map = new TreeMap<>();
+        
+        
+        q.add(new Pair(0, root));
+        
+        while(!q.isEmpty()){
+            Pair curr = q.poll();
+            map.put(curr.horizontal_dist, curr.node.data);
+            
+            if (curr.node.left != null){
+                q.add(new Pair(curr.horizontal_dist -1, curr.node.left));
+            }
+            if (curr.node.right != null){
+                q.add(new Pair(curr.horizontal_dist +1, curr.node.right));
+            }
+            
+        }
+        
+        ArrayList<Integer> ans = new ArrayList<>();
+        
+        for (Map.Entry<Integer,Integer> mp : map.entrySet()){
+            ans.add(mp.getValue());
+        }
+        
+        return ans;
+    }
+    
+    static class Pair {
+        int horizontal_dist;
+        Node node;
+        
+        public Pair(int horizontal_dist, Node node) {
+            this.horizontal_dist = horizontal_dist;
+            this.node = node;
+        }
+    }
+}
