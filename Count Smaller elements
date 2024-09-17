@@ -11,7 +11,6 @@ Explanation: There are 0 smaller elements right after 1. There are 0 smaller ele
 
 ANSWER:-
 
-
 class Solution {
      private static int merge(int[] arr, int[] indices, int low, int mid, int high, int[] count) {
         ArrayList<Integer> temp = new ArrayList<>(); // temporary array to store sorted indices
