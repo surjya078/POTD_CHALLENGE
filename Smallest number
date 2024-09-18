@@ -11,7 +11,6 @@ Explanation: 299 is the smallest number possible with the sum of digits = 20 and
 
 ANSWER:-
 
-
 class Solution {
     public int sumOfDigits(int n){
         int sum = 0;
@@ -20,23 +19,20 @@ class Solution {
             sum += n % 10;
             n = n / 10;
         }
-        
         return sum;
     }
     
     public String smallestNumber(int s, int d) {
         if (s > 9 * d || s < 1) {
             return "-1";
-        }
-        
+        } 
         int initialValue = 1 * (int)Math.pow(10, d - 1);
         while (initialValue <  1 * Math.pow(10, d)) {
             if (sumOfDigits(initialValue) == s) {
                 return Integer.toString(initialValue);
             }
             initialValue += 1;
-        }
-        
+        } 
         return "-1";
     }
 }
