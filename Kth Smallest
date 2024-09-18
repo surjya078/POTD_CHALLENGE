@@ -19,7 +19,6 @@ class Solution {
         int n = arr.length;
         Arrays.sort(arr);
         for(int num:arr){
-            
         }
         return(arr[k-1]);
     }
