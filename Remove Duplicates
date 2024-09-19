@@ -1,4 +1,4 @@
-Given a string str without spaces, the task is to remove all duplicate characters from it, keeping only the first occurrence.
+Given a string str without spaces, the task is to remove all duplicate characters from it, keeping only the first occurrence..
 
 Note: The original order of characters must be kept the same. 
 
