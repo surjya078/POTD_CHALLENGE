@@ -14,6 +14,7 @@ All the nodes in the linked list have duplicates. Hence the resultant list would
 
 ANSWER:-
 
+class A{
 public Node removeAllDuplicates(Node head) {
         if (head == null) return null;
 
@@ -45,3 +46,4 @@ public Node removeAllDuplicates(Node head) {
         }
 
         return dummy.next;
+}
