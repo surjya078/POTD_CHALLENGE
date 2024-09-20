@@ -22,7 +22,7 @@ Output: 3
 Explanation: The above tree has 3 vertical lines, hence the answer is 3.
 
 ANSWER:-
-
+class Nodes {
   public int verticalWidth(Node root) {
         if (root == null) {
             return 0;
@@ -63,3 +63,4 @@ class Pair {
         this.node = node;
         this.horizontalDistance = hd;
     }
+}
