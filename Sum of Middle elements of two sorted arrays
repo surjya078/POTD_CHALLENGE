@@ -27,7 +27,6 @@ class Solution {
             arr[k++]=arr2[j++];
              }
         }
-     
         int min=(m+n)/2;
         if((x%2)!=0){
             return arr[min];
