@@ -14,7 +14,7 @@ Explanation: replace '*' with "aab" and
 '?' with 'b'.
 Input: pattern = "a*ab", str = "baaabab"
 Output: 0
-Explanation: Because in string pattern character 'a' at first position,
+Explanation: Because in string pattern character 'a' at first position, 
 pattern and str can't be matched. 
 
 ANSWER :-
