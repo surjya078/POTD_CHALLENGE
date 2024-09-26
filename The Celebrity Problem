@@ -16,7 +16,7 @@ Explanation: The two people at the party both know each other. None of them is a
 
 ANSWER :-
 
-class Solution {
+class Solution { 
     // Function to find if there is a celebrity in the party or not.
     public int celebrity(int[][] mat) {
         int n = mat.length, j = 0;
