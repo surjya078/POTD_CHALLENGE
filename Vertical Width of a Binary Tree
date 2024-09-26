@@ -13,7 +13,7 @@ Input:
 Output: 6
 Explanation: The width of a binary tree is
 the number of vertical paths in that tree.
-The above tree contains 6 vertical lines.
+The above tree contains 6 vertical lines. 
 Input:
      1
     /  \
