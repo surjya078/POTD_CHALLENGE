@@ -13,7 +13,7 @@ Explanation: 8 deletions, i.e. remove all characters of the string "forgeeks".
 
 ANSWER :-
 
-class Solution
+class Solution 
 {
 	public int minOperations(String str1, String str2) 
 	{ 
