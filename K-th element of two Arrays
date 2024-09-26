@@ -13,7 +13,7 @@ Explanation: Combined sorted array is - 72, 86, 100, 112, 113, 119, 256, 265, 34
 ANSWER :-
 
 class Solution {
-    public long kthElement(int k, int arr1[], int arr2[]) {
+    public long kthElement(int k, int arr1[], int arr2[]) { 
         int n=arr1.length+arr2.length;
         int res[]=new int[n];
        for(int i=0;i<arr1.length;i++){
