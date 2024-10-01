@@ -8,7 +8,7 @@ Input: LinkedList L1 : 3->2 , LinkedList L2 : 2
 Output: 64 
 Explanation: 
 3 --> 2
-x     2
+x     2 
 ----------
 6 --> 4 
 
