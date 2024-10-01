@@ -5,7 +5,7 @@ Note: The output could be large take modulo 10^9+7.
 Examples :
 
 Input: LinkedList L1 : 3->2 , LinkedList L2 : 2
-Output: 64
+Output: 64 
 Explanation: 
 3 --> 2
 x     2
