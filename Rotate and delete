@@ -2,3 +2,6 @@ Given an array arr integers. Assume sz to be the initial size of the array. Do t
 
 Right-rotate the array clockwise by 1.
 Delete the (n– k + 1)th element from begin.
+
+Now, Return the first element of the array.
+Note: Here n keeps on decreasing with every operation.
