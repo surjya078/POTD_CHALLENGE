@@ -24,5 +24,18 @@ be arr = [4, 1, 2]. After doing all the operations, the output will be 2.
 
 ANSWER :-
 
-
+class Solution {
+    public static int rotateDelete(ArrayList<Integer> arr) {
+        // code here
+        int sz = arr.size();
+        for(int k=1;k<=sz/2;k++){
+            int n = arr.size();
+            int last = arr.remove(n-1);
+            arr.add(0,last);
+            //System.out.print(arr.toString());
+            arr.remove(n-k);
+        }
+        return arr.get(0);
+    }
+}
 
