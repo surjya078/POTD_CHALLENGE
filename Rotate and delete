@@ -1,1 +1,4 @@
+Given an array arr integers. Assume sz to be the initial size of the array. Do the following operations exactly sz/2 times. In every kth (1<= k <= sz/2) operation:
 
+Right-rotate the array clockwise by 1.
+Delete the (n– k + 1)th element from begin.
