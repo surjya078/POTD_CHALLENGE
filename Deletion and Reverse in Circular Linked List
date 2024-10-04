@@ -18,3 +18,13 @@ Input: Linked List: 2->5->7->8->10, key = 8
 
 Output: 10->7->5->2 
 Explanation: After deleting 8 from the given circular linked list, it has elements as 2, 5, 7, 10. Now, reversing this list will result in 10, 7, 5, 2 & the resultant list is also circular.
+
+
+Input: Linked List: 2->5->7->8->10, key = 8
+
+2 --> 5 --> 7 --> 8 --> 10
+^                        |
+|________________________|
+
+Output: 10->7->5->2 
+Explanation: After deleting 8 from the given circular linked list, it has elements as 2, 5, 7, 10. Now, reversing this list will result in 10, 7, 5, 2 & the resultant list is also circular.
