@@ -2,3 +2,6 @@ Given a Circular Linked List. The task is to delete the given node, key in the c
 list, and reverse the circular linked list.
 
 
+Note:
+
+1. You don't have to print anything, just return the head of the modified list in each function.
