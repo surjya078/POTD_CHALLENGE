@@ -32,3 +32,9 @@ Explanation: After deleting 8 from the given circular linked list, it has elemen
 
 Input: Linked List: 3->6->4->10, key = 9
 Output: 10->4->6->3
+Explanation: As there no key present in the list, so simply reverse the list & the resultant list is also circular.
+
+
+ANSWER :-
+
+
