@@ -6,3 +6,6 @@ Note:
 
 1. You don't have to print anything, just return the head of the modified list in each function.
 2. Nodes may consist of Duplicate values.
+3. The key may or may not be present.
+
+
