@@ -1,2 +1,7 @@
 Given a sorted array arr[] of positive integers, find the smallest positive integer such that it
 cannot be represented as the sum of elements of any subset of the given array set.
+
+Examples:
+
+Input: arr[] = [1, 2, 3]
+Output: 7
