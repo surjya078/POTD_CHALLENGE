@@ -5,3 +5,4 @@ Examples:
 
 Input: arr[] = [1, 2, 3]
 Output: 7
+Explanation: 7 is the smallest positive number for which no subset is there with sum 7.
