@@ -13,3 +13,7 @@ Explanation:
 The grid is-
 
 All lands are connected.
+
+Input: grid = [[0,1,1,1,0,0,0],[0,0,1,1,0,1,0]]
+Output: 2
+Expanation:
