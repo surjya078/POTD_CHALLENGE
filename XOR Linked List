@@ -4,3 +4,8 @@ Doubly Linked List is called XOR Linked List or Memory Efficient as the list use
 
 Given a stream of data of size N for the linked list, your task is to complete the function insert() and getList(). 
 The insert() function pushes (or inserts at the beginning) the givendata in the linked list and the getList()  function returns the linked list as a list.
+
+
+Note:
+
+1. A utility function XOR() takes two Node pointers to get the bit-wise XOR of the two Node pointers. Use this function to get the XOR of the two pointers.
