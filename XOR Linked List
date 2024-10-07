@@ -10,3 +10,12 @@ Note:
 
 1. A utility function XOR() takes two Node pointers to get the bit-wise XOR of the two Node pointers. Use this function to get the XOR of the two pointers.
 2. The driver code prints the returned list twice, once forward and once backwards.
+
+Examples:
+
+Input:
+LinkedList: 9<->5<->4<->7<->3<->10
+
+Output:
+10 3 7 4 5 9
+9 5 4 7 3 10
