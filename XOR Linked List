@@ -3,4 +3,4 @@ of previous and next nodes. A memory-efficient version of the Doubly Linked List
 Doubly Linked List is called XOR Linked List or Memory Efficient as the list uses bit-wise XOR operation to save space for one address.
 
 Given a stream of data of size N for the linked list, your task is to complete the function insert() and getList(). 
-The insert() function pushes (or inserts at the beginning) the given
+The insert() function pushes (or inserts at the beginning) the givendata in the linked list and the getList()  function returns the linked list as a list.
