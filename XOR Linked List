@@ -26,3 +26,38 @@ LinkedList: 58<->96<->31
 Output:
 31 96 58
 58 96 31
+
+ANSWER :-
+
+// class Node {
+//     int data;
+//     Node npx;
+
+//     Node(int x) {
+//         data = x;
+//         npx = null;
+//     }
+// }
+class Solution {
+    // function should insert the data to the front of the list
+    static Node insert(Node head, int data) {
+        // Code Here.
+         Node a = new Node(data);
+        a.npx = head;
+        return a;
+    }
+
+    // function to print the linked list
+    static ArrayList<Integer> getList(Node head) {
+        // Code Here.
+        ArrayList<Integer> ans = new ArrayList<>();
+        Node a = head;
+        while(a!=null){
+            ans.add(a.data);
+            a = a.npx;
+        }
+        return ans;
+
+
+    }
+}
