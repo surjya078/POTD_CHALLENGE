@@ -1,2 +1,5 @@
 An ordinary Doubly Linked List requires space for two address fields to store the addresses
 of previous and next nodes. A memory-efficient version of the Doubly Linked List can be created using only one space for the address field with every node. This memory-efficient
+Doubly Linked List is called XOR Linked List or Memory Efficient as the list uses bit-wise XOR operation to save space for one address.
+
+
