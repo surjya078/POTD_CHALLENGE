@@ -13,7 +13,7 @@ Explanation: 20 + 30 = 50.
 
 ANSWER  :-
 
-class Solution {
+class Solution { 
    public static int pairsum(int[] arr) {
         // code here
         int max=Integer.MIN_VALUE;
