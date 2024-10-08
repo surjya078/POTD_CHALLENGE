@@ -9,3 +9,24 @@ Explanation: Sum of 34 and 40 is the largest, i.e, 34 + 40 = 74.
 Input: arr[] = [10, 20, 30]
 Output: 50
 Explanation: 20 + 30 = 50.
+
+
+ANSWER  :-
+
+class Solution {
+   public static int pairsum(int[] arr) {
+        // code here
+        int max=Integer.MIN_VALUE;
+        for(int i=0;i<arr.length;i++){
+            max=Math.max(max,arr[i]);
+        }
+        int secondMax=Integer.MIN_VALUE;
+        for(int i=0;i<arr.length;i++){
+            if(arr[i]!=max){
+                secondMax=Math.max(secondMax,arr[i]);
+            }
+        }
+        return max+secondMax;
+    }
+}
+
