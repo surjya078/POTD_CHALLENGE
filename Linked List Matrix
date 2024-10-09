@@ -23,6 +23,7 @@ null   null
 ANSWER  :-
 
 class Solution {
+
     static Node head;
     static Node construct(int arr[][]) {
         // Add your code here.
