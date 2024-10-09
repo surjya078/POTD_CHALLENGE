@@ -45,7 +45,6 @@ class Solution {
         
         for(int i=0;i<n;i++)
         {
-            
             if(i>0)
             {
                 
@@ -54,7 +53,6 @@ class Solution {
                 
                 currnode=newnode3;
                 firstnode=firstnode.down;
-               
             }
             
     
