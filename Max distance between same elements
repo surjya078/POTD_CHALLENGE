@@ -4,3 +4,5 @@ Note: You may assume that every input array has repetitions.
 
 Examples:
 
+Input: arr = [1, 1, 2, 2, 2, 1]
+Output: 5
