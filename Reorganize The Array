@@ -16,6 +16,7 @@ Output: [0, 1, 2]
 Explanation: Here We can see all the elements are present so no -1 is returned in array.
 
 ANSWER :-
+class Solution {
 
 public List<Integer> rearrange(List<Integer> arr) {
         int count = 0;
@@ -38,3 +39,4 @@ public List<Integer> rearrange(List<Integer> arr) {
         }
         return arr;
     }
+}
