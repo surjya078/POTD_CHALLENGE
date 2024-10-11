@@ -13,3 +13,7 @@ and 8. So, at there places we will be printing -1 and otherplaces will be having
 
 Input: arr[] = [2, 0, 1]
 Output: [0, 1, 2]
+Explanation: Here We can see all the elements are present so no -1 is returned in array.
+
+ANSWER :-
+
