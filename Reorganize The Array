@@ -3,3 +3,7 @@ write a program that rearranges the elements of the array such that arr[i] = i. 
 i is not present in the array, -1 should be placed at the corresponding index.
 
 
+Examples:
+
+Input: arr[] = [-1, -1, 6, 1, 9, 3, 2, -1, 4, -1]
+Output: [-1, 1, 2, 3, 4, -1, 6, -1, -1, 9]
