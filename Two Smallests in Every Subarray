@@ -24,3 +24,8 @@ Maximum sum among all above choices is, 5 + 6 = 11, hence the answer is 11.
 Input: arr = [1]
 Output: -1
 Explanation: Here the size of array is 1, but we need minimum 2 elements. Hence, the answer is -1.
+
+
+ANSWER :-
+
+
