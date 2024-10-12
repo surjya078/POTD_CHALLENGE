@@ -15,3 +15,7 @@ Subarray: [4, 3, 1, 5, 6], smallest = 1, second smallest = 3, sum = 4
 Subarray: [3, 1], smallest = 1, second smallest = 3, sum = 4
 Subarray: [3, 1, 5], smallest = 1, second smallest = 3, sum = 4
 Subarray: [3, 1, 5, 6], smallest = 1, second smallest = 3, sum = 4
+Subarray: [1, 5], smallest = 1, second smallest = 5, sum = 6
+Subarray: [1, 5, 6] ,smallest = 1, second smallest = 5, sum = 6
+Subarray: [5, 6], smallest = 5, second smallest = 6, sum = 11
+Maximum sum among all above choices is, 5 + 6 = 11, hence the answer is 11.
