@@ -28,4 +28,19 @@ Explanation: Here the size of array is 1, but we need minimum 2 elements. Hence,
 
 ANSWER :-
 
-
+class Solution {
+    public int pairWithMaxSum(int[] arr) {
+        // code here
+        int n = arr.length;
+        if(n<2){
+            return -1;
+        }
+        int c = arr[0] + arr[1];
+        
+        for(int i =1;i<n-1;i++){
+            c = Math.max(c,arr[i] + arr[i+1]);
+        }
+        return c;
+    
+    }
+}
