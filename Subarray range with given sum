@@ -12,3 +12,18 @@ Explanation: Subarray with sum 33 is: [20,3,10].
 
 ANSWER :-
 
+class Solution {
+    // Function to count the number of subarrays which adds to the given sum.
+    static int subArraySum(int arr[], int tar) {
+        int ans  =0;int sum = 0;
+        Map<Integer,Integer> map = new HashMap<>();
+        map.put(0,1);
+        for(int ele:arr){
+            sum += ele;
+            if(map.containsKey(sum - tar)) ans += map.get(sum -tar);
+            map.put(sum,map.getOrDefault(sum,0)+1);
+        }
+        
+        return ans;
+    }
+}
