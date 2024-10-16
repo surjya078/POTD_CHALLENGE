@@ -3,3 +3,8 @@ A swap can involve the same pair of indices twice.
 
 Return true if it is possible to sort the array with exactly two swaps, otherwise return false.
 
+
+Examples:
+
+Input: arr = [4, 3, 2, 1]
+Output: true
