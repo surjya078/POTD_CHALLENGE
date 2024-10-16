@@ -13,3 +13,4 @@ Then, swap arr[1] and arr[2]. The array becomes [1, 2, 3, 4], which is sorted.
 
 Input: arr = [4, 3, 1, 2]
 Output: false
+Explanation: It is not possible to sort the array with exactly two swaps.
