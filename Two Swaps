@@ -18,3 +18,9 @@ Explanation: It is not possible to sort the array with exactly two swaps.
 
 ANSWER :-
 
+class Solution {
+
+    public boolean checkSorted(List<Integer> arr) {
+        // code here
+    }
+}
