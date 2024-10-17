@@ -4,4 +4,5 @@ elements from the original list.
 
 Note: 
 
-The sublist should be in the order with respect to the original list.
+. The sublist should be in the order with respect to the original list.
+. Your have to return an array containing the both sub-linked lists.
