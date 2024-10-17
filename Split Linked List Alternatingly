@@ -11,3 +11,5 @@ Examples:
 
 Input: LinkedList = 0->1->0->1->0->1
 Output: 0->0->0 , 1->1->1
+Explanation: After forming two sublists of the given list as required,
+we have two lists as: 0->0->0 and 1->1->1.
