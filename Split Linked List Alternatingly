@@ -16,3 +16,6 @@ we have two lists as: 0->0->0 and 1->1->1.
 
 Input: LinkedList = 2->5->8->9->6
 Output: 2->8->6 , 5->9
+Explanation: After forming two sublists of the given list as required, we have
+two lists as: 2->8->6 and 5->9.
+
