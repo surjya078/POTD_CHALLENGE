@@ -2,3 +2,6 @@ Given a singly linked list's head. Your task is to complete the function alterna
 that splits the given linked list into two smaller lists. The sublists should be made from alternating
 elements from the original list.
 
+Note: 
+
+The sublist should be in the order with respect to the original list.
