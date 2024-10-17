@@ -6,3 +6,8 @@ Note:
 
 . The sublist should be in the order with respect to the original list.
 . Your have to return an array containing the both sub-linked lists.
+
+Examples:
+
+Input: LinkedList = 0->1->0->1->0->1
+Output: 0->0->0 , 1->1->1
