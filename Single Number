@@ -6,6 +6,11 @@ Examples:
 Input: arr[] = [1, 1, 2, 2, 2]
 Output: 2
 Explanation: In the given array all element appear two times except 2 which appears thrice.
+
 Input: arr[] = [8, 8, 7, 7, 6, 6, 1]
 Output: 1
 Explanation: In the given array all element appear two times except 1 which appears once.
+
+
+ANSWER :-
+
