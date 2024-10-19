@@ -8,3 +8,5 @@ Input: str = 29
 Output: 30
 Explanation: Close multiples are 20 and 30, and 30 is the nearest to 29. 
 
+Input: str = 15
+Output: 10
