@@ -14,7 +14,7 @@ Explanation: 10 and 20 are equally distant multiples from 20. The smallest of th
 
 ANSWER :-
 
-class Solution {
+class Solution { 
 
     String roundToNearest(String str) {
         // Complete the function
