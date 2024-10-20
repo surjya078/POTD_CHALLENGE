@@ -4,3 +4,5 @@ to sort the given doubly linked list. The distance can be assumed in either of t
 Examples :
 
 Input: Doubly Linked List : 3 <-> 2 <-> 1 <-> 5 <-> 6 <-> 4 , k = 2
+Output: 1 <-> 2 <-> 3 <-> 4 <-> 5 <-> 6
+
