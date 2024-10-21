@@ -1,1 +1,5 @@
+Given an array arr[] of integers, the task is to count the number of ways to split given array 
+elements into two non-empty subsets such that the XOR of elements of each group is 
+equal. Each element should belong to exactly one subset.
+
 
