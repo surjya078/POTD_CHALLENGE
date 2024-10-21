@@ -25,6 +25,7 @@ Explanation: There are 7 ways to split the array into two groups with equal XOR,
 ANSWER :-
 
 class Solution {
+
     static final int MOD = 1000000007;
 
     public static int countgroup(int arr[]) {
