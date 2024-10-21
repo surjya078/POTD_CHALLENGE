@@ -44,5 +44,6 @@ class Solution {
  result = (result - 1 + MOD) % MOD;
         return (int) result;
     }
+
 }
 
