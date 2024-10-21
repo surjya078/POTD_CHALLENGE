@@ -20,3 +20,7 @@ Explanation: No way to split into  two groups whose XOR is equal.
 Input : arr[] = [2, 2, 2, 2]
 Output : 7
 Explanation: There are 7 ways to split the array into two groups with equal XOR, such that there are multiple combinations of {(2), (2,2,2)},{(2,2),(2,2)}.
+
+
+ANSWER :-
+
