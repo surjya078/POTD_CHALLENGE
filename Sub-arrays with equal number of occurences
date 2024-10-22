@@ -9,3 +9,6 @@ Explanation: The possible sub-arrays have same equal number of occurrences of x 
 1) [1, 2], x and y have same occurrence(1).
 2) [2, 1], x and y have same occurrence(1).
 
+Input: arr[] = [1, 2, 1] , x = 4 , y = 6
+Output: 6
+Explanation: The possible sub-arrays have same equal number of occurrences of 
