@@ -25,3 +25,7 @@ x and y are:
 Input: arr[] = [1, 2, 1] , x= 1 , y = 4
 Output: 1
 Explanation: The possible sub-array have same equal number of occurrences of x and y is: [2], x and y have same occurrence(0)
+
+
+ANSWER :-
+
