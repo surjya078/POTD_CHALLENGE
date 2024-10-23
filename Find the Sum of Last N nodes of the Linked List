@@ -13,3 +13,27 @@ Output: 3
 Explanation: The sum of the last two nodes in the linked list is 2 + 1 = 3.
 
 
+ANSWER :-
+
+class Solution {
+
+    // Return the sum of last k nodes
+    public int sumOfLastN_Nodes(Node head, int n) {
+        int len = n;
+        Node temp = head;
+        int sum=0;
+        while(len > 0){
+            sum += temp.data;
+            temp = temp.next;
+            len--;
+        }
+        Node prev = head;
+        while(temp != null){
+            sum += temp.data;
+            sum -= prev.data;
+            temp = temp.next;
+            prev = prev.next;
+        }
+        return sum;
+    }
+}
