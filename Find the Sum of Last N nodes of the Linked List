@@ -10,3 +10,6 @@ Explanation: The sum of the last three nodes in the linked list is 3 + 4 + 10 = 
 
 Input: Linked List: 1->2, n = 2
 Output: 3
+Explanation: The sum of the last two nodes in the linked list is 2 + 1 = 3.
+
+
