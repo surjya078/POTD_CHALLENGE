@@ -1,1 +1,2 @@
-
+Given an array arr. Return the modified array in such a way that if the current and next
+numbers are valid numbers and are equal then double the current number value and
