@@ -2,3 +2,9 @@ Given an array arr. Return the modified array in such a way that if the current 
 numbers are valid numbers and are equal then double the current number value and
 replace the next number with 0. After the modification, rearrange the array such
 that all 0's are shifted to the end.
+
+Note:
+
+Assume ‘0’ as the invalid number and all others as a valid number.
+The sequence of the valid numbers is present in the same order.
+
