@@ -8,3 +8,7 @@ Note:
 Assume ‘0’ as the invalid number and all others as a valid number.
 The sequence of the valid numbers is present in the same order.
 
+Example:
+
+Input: arr[] = [2, 2, 0, 4, 0, 8] 
+Output: [4, 4, 8, 0, 0, 0] 
