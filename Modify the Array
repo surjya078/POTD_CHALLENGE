@@ -18,3 +18,5 @@ will shift all the zeros to the end of the array. So, the array will become [4, 
 
 Input: arr[] = [0, 2, 2, 2, 0, 6, 6, 0, 0, 8] 
 Output: [4, 2, 12, 8, 0, 0, 0, 0, 0, 0]
+Explanation: At index 5 and 6 both the elements are the same. So, we will 
+change the element at index 5 to 12 and the element at index 6 is 0. We will 
