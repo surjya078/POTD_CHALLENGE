@@ -1,3 +1,5 @@
 Given a singly linked list and a key, count the number of 
 occurrences of the given key
 in the linked list.
+
+Examples:
