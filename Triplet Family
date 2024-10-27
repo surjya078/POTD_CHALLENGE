@@ -9,3 +9,8 @@ Explanation: The pair (1, 2) sums to 3.
 
 Input: arr[] = [5, 3, 4]
 Output: false
+Explanation: No triplets satisfy the condition.
+
+
+ANSWER :-
+
