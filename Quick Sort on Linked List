@@ -5,3 +5,5 @@ Examples:
 
 Input: Linked list: 1->6->2
 Output: 1->2->6
+Explanation:
+After sorting the nodes, we have 1, 2 and 6.
