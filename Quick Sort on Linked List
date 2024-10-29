@@ -1,2 +1,7 @@
 You are given a Linked List.Sort the given
 Linked List using quicksort. 
+
+Examples:
+
+Input: Linked list: 1->6->2
+Output: 1->2->6
