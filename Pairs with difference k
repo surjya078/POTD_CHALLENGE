@@ -14,3 +14,14 @@ Explanation: There are 5 pairs with difference 4, the pairs are {0, 4}, {4, 8}, 
 
 
 ANSWER :-
+
+class Solution {
+    int countPairsWithDiffK(int[] arr, int k) {
+        // code here
+        int ans = 0;
+          HashMap<Integer,Integer>map = new HashMap<>();
+          for(int x  : arr) map.put(x,map.getOrDefault(x,0)+1);
+            for(int x : arr) ans +=map.getOrDefault(x+k,0);
+            return ans;
+    }
+}
