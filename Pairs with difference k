@@ -16,7 +16,7 @@ Explanation: There are 5 pairs with difference 4, the pairs are {0, 4}, {4, 8}, 
 ANSWER :-
 
 class Solution {
-    int countPairsWithDiffK(int[] arr, int k) {
+    int countPairsWithDiffK(int[] arr, int k) { 
         // code here
         int ans = 0;
           HashMap<Integer,Integer>map = new HashMap<>();
