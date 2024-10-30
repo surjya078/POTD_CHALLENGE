@@ -5,7 +5,7 @@ Note: (a, b) and (b, a) are considered the same. Also, the same numbers at diffe
 Examples:
 
 Input: arr[] = [1, 5, 3, 4, 2], k = 3
-Output: 2
+Output: 2 
 Explanation: There are 2 pairs with difference 3,the pairs are {1, 4} and {5, 2} 
 
 Input: arr[] = [8, 12, 16, 4, 0, 20], k = 4
