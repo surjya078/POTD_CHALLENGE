@@ -13,7 +13,7 @@ Output: 5
 Explanation: There are 5 pairs with difference 4, the pairs are {0, 4}, {4, 8}, {8, 12}, {12, 16} and {16, 20}. 
 
 
-ANSWER :-
+ANSWER :- 
 
 class Solution {
     int countPairsWithDiffK(int[] arr, int k) { 
