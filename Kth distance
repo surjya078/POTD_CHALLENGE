@@ -1,3 +1,5 @@
 Given an unsorted array arr and a number k 
 which is smaller than the size of the array.
-Return true if the 
+Return true if the array contains any duplicate 
+within k distance throughout the array else false.
+
