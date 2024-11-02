@@ -3,3 +3,7 @@ which is smaller than the size of the array.
 Return true if the array contains any duplicate 
 within k distance throughout the array else false.
 
+Examples:
+
+Input: arr[] = [1, 2, 3, 4, 1, 2, 3, 4] and k = 3
+Output: false
