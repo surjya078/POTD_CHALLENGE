@@ -7,3 +7,5 @@ Examples:
 
 Input: Linked list: 12->52->10->47->95->0
 Output: true
+Explanation: The length of the linked list is 6 which is even, hence returned true.
+
