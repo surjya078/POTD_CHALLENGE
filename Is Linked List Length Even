@@ -3,3 +3,7 @@ isLengthEven() which contains the head
 of the linked list, and check whether the length of the linked list
 is even or not. Return true if it is even, otherwise false.
 
+Examples:
+
+Input: Linked list: 12->52->10->47->95->0
+Output: true
