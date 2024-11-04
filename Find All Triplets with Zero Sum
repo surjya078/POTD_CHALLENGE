@@ -5,3 +5,5 @@ returned triplets indices should also be
 internally sorted, i.e., for any triplet indices [i, j, k], the 
 condition i < j < k should hold.
 
+Note: Try to solve this using the O(n2) approach.
+
