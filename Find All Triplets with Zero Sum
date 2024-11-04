@@ -22,3 +22,6 @@ arr[0] + arr[1] + arr[2] = 1 + (-2) + 1 = 0
 
 Input: arr[] = [2, 3, 1, 0, 5]
 Output: [[]]
+Explanation: There is no triplet with sum 0.
+
+
