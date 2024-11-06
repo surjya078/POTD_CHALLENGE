@@ -3,7 +3,7 @@ Given a binary tree, where every node value is a number. Find the sum of all the
 Examples:
 
 Input:      
-           6
+           6 
          /   \
         3     5
       /  \     \
