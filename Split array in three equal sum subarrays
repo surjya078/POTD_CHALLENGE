@@ -17,3 +17,6 @@ Input: arr[] = [2, 3, 4]
 Output: false
 Explanation: No three subarrays exist which have equal sum.
 
+Input: arr[] = [0, 1, 1]
+Output: false
+
