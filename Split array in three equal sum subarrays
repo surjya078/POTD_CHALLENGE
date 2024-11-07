@@ -20,3 +20,6 @@ Explanation: No three subarrays exist which have equal sum.
 Input: arr[] = [0, 1, 1]
 Output: false
 
+
+ANSWER :-
+
