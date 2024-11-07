@@ -1,0 +1,6 @@
+Given an array, arr[], determine if arr can be split into
+three consecutive parts such that the sum of each part is 
+equal. If possible, return any index pair(i, j) in an array 
+such that sum(arr[0..i]) = sum(arr[i+1..j]) = sum(arr[j+1..n-1]), 
+otherwise return an array {-1,-1}.
+
