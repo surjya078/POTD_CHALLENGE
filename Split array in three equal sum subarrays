@@ -13,3 +13,7 @@ Output: true
 Explanation: [1, 2] is valid pair as sum of subarray 
 arr[0..1] is equal to sum of subarray arr[2..3] and also to sum of subarray arr[4..4]. The sum is 4. 
 
+Input: arr[] = [2, 3, 4]
+Output: false
+Explanation: No three subarrays exist which have equal sum.
+
