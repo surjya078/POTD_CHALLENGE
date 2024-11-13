@@ -1,7 +1,7 @@
 Given two singly linked lists, return the point where two linked lists intersect.
 
 Note: If the linked lists do not merge at any point, return -1.
- 
+  
 Examples:
 
 Input: Linked list 1: 4->4->4->4->4, Linked list 2: 4->4->4
