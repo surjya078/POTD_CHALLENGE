@@ -21,4 +21,22 @@ Explanation: There is no common part, so there is no interaction point.
 
 ANSWER :-
 
-
+class Intersect {
+    // Function to find intersection point in Y shaped Linked Lists.
+    int intersectPoint(Node head1, Node head2) {
+        HashMap<Node,Integer> map = new HashMap<>();
+        while(head1!=null){
+            map.put(head1,head1.data);
+            head1 = head1.next;
+        }
+        
+        while(head2!=null){
+            if(map.containsKey(head2)){
+                return head2.data;
+            }
+            head2 = head2.next;
+        }
+        return -1;
+        
+    }
+}
