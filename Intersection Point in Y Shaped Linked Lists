@@ -32,7 +32,7 @@ Input: Linked list 1: 4->1->8->4->5, Linked List 2: 5->6->1->8->4->5
           \
            4
            |
-  
+           5
 
 Output: 8
 Explanation: From the above image, it is clearly seen that the common part is 8->4->5 whose starting point is 8.
