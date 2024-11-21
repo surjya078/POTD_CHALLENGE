@@ -14,3 +14,31 @@ Input: prices[] = [4, 2, 2, 2, 4]
 Output: 2
 Explanation: Buy the stock on day 3 and sell it on day 4 => 4 – 2 = 2.
 Maximum Profit = 2.
+
+
+ANSWER :-
+
+class Solution {
+    public int maximumProfit(int prices[]) {
+        // code here
+        //as soon as i get a dip sell it on previous of current day
+        int n = prices.length;
+        int totalP = 0;
+        int buy = 0;
+        for(int i=0;i<n;i++){
+            if(i == 0){
+                buy = prices[i];
+            }
+            else if(prices[i] < prices[i-1]){
+                //this is dip
+                totalP += prices[i-1] - buy;
+                
+                buy = prices[i];
+            }
+        }
+        
+        totalP += prices[n-1] - buy;
+        
+        return totalP;
+    }
+}
