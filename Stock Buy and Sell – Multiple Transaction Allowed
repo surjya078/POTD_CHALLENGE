@@ -12,3 +12,5 @@ Explanation: Buy the stock on day 0 and sell it on day 3 => 310 – 100 = 210. B
 
 Input: prices[] = [4, 2, 2, 2, 4]
 Output: 2
+Explanation: Buy the stock on day 3 and sell it on day 4 => 4 – 2 = 2.
+Maximum Profit = 2.
