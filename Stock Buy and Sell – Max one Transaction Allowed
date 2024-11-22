@@ -21,3 +21,17 @@ Explanation: Since the array is sorted in increasing order, we can make maximum 
 
 ANSWER :-
 
+class Solution {
+    public int maximumProfit(int prices[]) {
+        // Code here
+        int min = Integer.MAX_VALUE;
+        int ans = 0;
+        
+        for(int price: prices){
+            min = Math.min(min, price);
+            ans = Math.max(ans, price - min);
+        }
+        
+        return ans;
+    }
+}
