@@ -2,3 +2,5 @@ Given a positive integer k and an array arr[] denoting heights of towers, you ha
 of each tower either by increasing or decreasing them by k only once.
 Find out what could be the possible minimum difference of the height of shortest and longest towers 
 after you have modified each tower.
+
+Note: A slight modification of the problem can be found here. 
