@@ -8,7 +8,7 @@ Explanation: The subarray {7, -1, 2, 3} has the largest sum 11.
 
 Input: arr[] = [-2, -4]
 Output: -2
-Explanation: The subarray {-2} has the largest sum -2.
+Explanation: The subarray {-2} has the largest sum -2. 
 
 Input: arr[] = [5, 4, 1, 7, 8]
 Output: 25
