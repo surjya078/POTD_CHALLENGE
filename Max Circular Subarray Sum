@@ -12,7 +12,7 @@ Input: arr[] = [10, -3, -4, 7, 6, 5, -4, -1]
 Output: 23
 Explanation: Maximum sum of the circular subarray is 23. The subarray is [7, 6, 5, -4, -1, 10].
 
-Input: arr[] = [-1, 40, -14, 7, 6, 5, -4, -1] 
+Input: arr[] = [-1, 40, -14, 7, 6, 5, -4, -1]  
 Output: 52
 Explanation: Circular Subarray [7, 6, 5, -4, -1, -1, 40] has the maximum sum, which is 52.
 
