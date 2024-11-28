@@ -17,3 +17,7 @@ Input: s = "  -"
 Output: 0
 Explanation: No digits are present, therefore the returned answer is 0.
 
+Input: s = " 1231231231311133"
+Output: 2147483647
+Explanation: The converted number will be greater than 231 – 1, therefore print 231 – 1 = 2147483647.
+
