@@ -21,3 +21,7 @@ Input: s = " 1231231231311133"
 Output: 2147483647
 Explanation: The converted number will be greater than 231 – 1, therefore print 231 – 1 = 2147483647.
 
+Input: s = "-999999999999"
+Output: -2147483648
+Explanation: The converted number is smaller than -231, therefore print -231 = -2147483648.
+
