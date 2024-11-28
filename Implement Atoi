@@ -25,3 +25,10 @@ Input: s = "-999999999999"
 Output: -2147483648
 Explanation: The converted number is smaller than -231, therefore print -231 = -2147483648.
 
+Input: s = "  -0012gfg4"
+Output: -12
+Explanation: Nothing is read after -12 as a non-digit character ‘g’ was encountered.
+
+
+ANSWER :-
+
