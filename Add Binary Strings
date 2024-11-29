@@ -9,7 +9,7 @@ Explanation:
 10100
 
 Input: s1 = "00100", s2 = "010"
-Output: 110 
+Output: 110  
 Explanation: 
   100
 +  10
