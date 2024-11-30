@@ -7,7 +7,7 @@ Note: You can assume both the strings s1 & s2 are non-empty.
 Examples :
 
 Input: s1 = "geeks", s2 = "kseeg"
-Output: true
+Output: true 
 Explanation: Both the string have same characters with same frequency. So, they are anagrams.
 
 Input: s1 = "allergy", s2 = "allergic"
