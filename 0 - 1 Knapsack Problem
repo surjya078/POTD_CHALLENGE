@@ -11,7 +11,7 @@ Output: 0
 Explanation: Every item has a weight exceeding the knapsack's capacity (3).
 
 ANSWER :-
-
+ 
 class Solution {
     // Function to return max value that can be put in knapsack of capacity W.
      static int knapSack(int W, int wt[], int val[]) {
