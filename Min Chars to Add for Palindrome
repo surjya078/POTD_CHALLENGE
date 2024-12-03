@@ -4,4 +4,8 @@ Note: A palindrome string is a sequence of characters that reads the same forwar
 
 Examples:
 
+Input: s = "abc"
+Output: 2
+Explanation: Add 'b' and 'c' at front of above string to make it palindrome : "cbabc"
+
 
