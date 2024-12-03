@@ -6,7 +6,7 @@ Examples:
 
 Input: s = "abc"
 Output: 2
-Explanation: Add 'b' and 'c' at front of above string to make it palindrome : "cbabc"
+Explanation: Add 'b' and 'c' at front of above string to make it palindrome : "cbabc" 
 
 Input: s = "aacecaaaa"
 Output: 2
