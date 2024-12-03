@@ -8,4 +8,8 @@ Input: s = "abc"
 Output: 2
 Explanation: Add 'b' and 'c' at front of above string to make it palindrome : "cbabc"
 
+Input: s = "aacecaaaa"
+Output: 2
+Explanation: Add 2 a's at front of above string to make it palindrome : "aaaacecaaaa"
+
 
