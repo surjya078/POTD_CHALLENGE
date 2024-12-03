@@ -21,7 +21,7 @@ class Solution {
         String concat = A + "$" + rev;
         int[] lps = new int[concat.length()];
         int y = 0;
-        for (int x = 1; x < concat.length(); x++) {
+        for (int x = 1; x < concat.length(); x++) { 
             while (y > 0 && concat.charAt(x) != concat.charAt(y)) {
                 y = lps[y - 1];
             }
