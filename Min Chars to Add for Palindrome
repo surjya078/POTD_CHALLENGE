@@ -13,7 +13,7 @@ Output: 2
 Explanation: Add 2 a's at front of above string to make it palindrome : "aaaacecaaaa"
 
 
-ANSWER :-
+ANSWER :- 
 
 class Solution {
     public static int minChar(String A) {
