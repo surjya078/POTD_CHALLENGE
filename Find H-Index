@@ -13,7 +13,7 @@ Explanation: There are 3 papers (with citation counts of 5, 2, and 4) that have 
 Input: citations[] = [0, 0]
 Output: 0
 
-ANSWER :-
+ANSWER :- 
 
 class Solution {
     // Function to find hIndex
