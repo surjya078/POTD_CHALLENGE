@@ -1,4 +1,5 @@
 Given an array of integers arr[]. Find the Inversion Count in the array.
+
 Two elements arr[i] and arr[j] form an inversion if arr[i] > arr[j] and i < j.
 
 
