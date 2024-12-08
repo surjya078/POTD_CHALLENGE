@@ -14,7 +14,7 @@ Explanation: In the given intervals all the intervals overlap with the interval 
 ANSWER :-
 
 class Solution {
-    public List<int[]> mergeOverlap(int[][] arr) {
+    public List<int[]> mergeOverlap(int[][] arr) { 
         Arrays.sort(arr, (a, b) -> Integer.compare(a[0], b[0]));
 
         int n = arr.length;
