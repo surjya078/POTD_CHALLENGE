@@ -4,4 +4,6 @@ order by starti. He wants to add a new interval newInterval= [newStart, newEnd] 
 Help Geek to insert newInterval into intervals such that intervals is still sorted in ascending
 order by starti and intervals still does not have any overlapping intervals (merge overlapping intervals if necessary).
 
+Examples:
+
 
