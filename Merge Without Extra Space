@@ -5,7 +5,7 @@ Examples:
 
 Input: a[] = [2, 4, 7, 10], b[] = [2, 3]
 Output:
-2 2 3 4
+2 2 3 4 
 7 10
 Explanation: After merging the two non-decreasing arrays, we get, 2 2 3 4 7 10
 
