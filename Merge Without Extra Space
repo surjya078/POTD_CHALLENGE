@@ -1,1 +1,4 @@
-Given two sorted arrays a[] and b[] in non-decreasing order. Merge them in sorted order without using any extra space. Modify a so that it contains the first n elements and modify b so that it contains the last m elements.
+Given two sorted arrays a[] and b[] in non-decreasing order. Merge them in sorted order without using any extra space.
+Modify a so that it contains the first n elements and modify b so that it contains the last m elements.
+
+
