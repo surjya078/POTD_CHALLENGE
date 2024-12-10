@@ -15,7 +15,7 @@ Input: intervals[][] = [[1, 2], [5, 10], [18, 35], [40, 45]]
 Output: 0 
 Explanation: All ranges are already non overlapping.
 
-ANSWER :-
+ANSWER :- 
 
 class Solution {
     static int minRemoval(int intervals[][]) {
