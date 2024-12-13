@@ -10,4 +10,11 @@ Input: arr[] = [3, 1, 2]
 Output: 1
 Explanation: Here 1 is the minimum element.
 
+Input: arr[] = [4, 2, 3]
+Output: 2
+Explanation: Here 2 is the minimum element.
+
+
+ANSWER :-
+
 
