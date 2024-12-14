@@ -21,3 +21,13 @@ Explanation: arr[2] is a peak element because arr[1] < arr[2] and arr[2] is the 
 
 ANSWER :-
 
+class Solution {
+
+    public int peakElement(int[] arr) {
+        // code here
+         for(int i = arr.length-1;i>0;i--){
+            if(arr[i]>arr[i-1]) return i;
+        }
+        return 0;
+    }
+}
