@@ -14,3 +14,10 @@ Input: arr = [10, 20, 15, 2, 23, 90, 80]
 Output: true
 Explanation: arr[1] = 20 and arr[5] = 90 are peak elements because arr[0] < arr[1] > arr[2] and arr[4] < arr[5] > arr[6]. 
 
+Input: arr = [1, 2, 3]
+Output: true
+Explanation: arr[2] is a peak element because arr[1] < arr[2] and arr[2] is the last element, so it has negative infinity to its right.
+
+
+ANSWER :-
+
