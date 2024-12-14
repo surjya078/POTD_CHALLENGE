@@ -3,7 +3,7 @@ to be a peak if it is greater than its adjacent elements (if they exist). If the
 of any one of them. The output will be "true" if the index returned by your function is correct; otherwise, it will be "false".
 
 Note: Consider the element before the first element and the element after the last element to be negative infinity.
-
+ 
 Examples :
 
 Input: arr = [1, 2, 4, 5, 7, 8, 3]
