@@ -9,6 +9,38 @@ Input: a[] = [100, 112, 256, 349, 770], b[] = [72, 86, 113, 119, 265, 445, 892],
 Output: 256
 Explanation: Combined sorted array is [72, 86, 100, 112, 113, 119, 256, 265, 349, 445, 770, 892]. The 7th element of this array is 256.
 
+
 ANSWER :-
 
- 
+ class Solution {
+    public int kthElement(int a[], int b[], int k) {
+        // code here
+        
+        int i =0;
+        int j = 0;
+        while(i<a.length && j<b.length){
+            if(a[i]<=b[j]){
+                if(k==1){
+                    return a[i];
+                }
+                k--;
+                i++;
+            }else{
+                if(k==1){
+                    return b[j];
+                }
+                k--;
+                j++;
+            }
+        }
+        
+        if(i==a.length){
+            return b[j+k-1];
+        }
+        
+        return a[i+k-1];
+        
+        
+    }
+}
+
