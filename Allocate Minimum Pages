@@ -5,3 +5,4 @@ You also have an integer k representing the number of students. The task is to a
 2. Each student is assigned a contiguous sequence of books.
 3. No book is assigned to more than one student.
 
+The objective is to minimize the maximum number of pages assigned to any student. In other words, out of all possible allocations, find the arrangement where the student who receives the most pages still has the smallest possible maximum.
