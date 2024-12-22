@@ -8,7 +8,7 @@ Explanation: 62 is not present in the matrix, so output is false.
 Input: mat[][] = [[18, 21, 27],[38, 55, 67]], x = 55
 Output: true
 Explanation: 55 is present in the matrix.
-Input: mat[][] = [[1, 2, 3],[4, 5, 6],[7, 8, 9]], x = 3
+Input: mat[][] = [[1, 2, 3],[4, 5, 6],[7, 8, 9]], x = 3 
 Output: true
 Explanation: 3 is present in the matrix.
 
