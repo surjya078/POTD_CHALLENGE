@@ -18,7 +18,7 @@ User
 Tapasya Beniwal
 33 minutes agoDec 22, 2024 18:51 (GMT +5:30)
 
-Easy java solution 😎
+Easy java solution 😎 
 
 class Solution {
     public static boolean matSearch(int mat[][], int x) {
