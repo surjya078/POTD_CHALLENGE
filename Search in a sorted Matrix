@@ -12,3 +12,10 @@ Input: mat[][] = [[1, 5, 9, 11], [14, 20, 21, 26], [30, 34, 43, 50]], x = 42
 Output: false
 Explanation: 42 is not present in the matrix.
 
+Input: mat[][] = [[87, 96, 99], [101, 103, 111]], x = 101
+Output: true
+Explanation: 101 is present in the matrix.
+
+
+ANSWER :-
+
