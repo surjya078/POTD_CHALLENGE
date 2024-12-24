@@ -4,3 +4,7 @@ Note: In a strictly sorted matrix, each row is sorted in strictly increasing ord
 
 Examples:
 
+Input: mat[][] = [[1, 5, 9], [14, 20, 21], [30, 34, 43]], x = 14
+Output: true
+Explanation: 14 is present in the matrix, so output is true.
+
