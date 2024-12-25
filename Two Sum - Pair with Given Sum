@@ -4,7 +4,7 @@ exists two distinct indices such that the sum of there elements is equals to tar
 Examples:
 
 Input: arr[] = [1, 4, 45, 6, 10, 8], target = 16
-Output: true
+Output: true 
 Explanation: arr[3] + arr[4] = 6 + 10 = 16.
 
 Input: arr[] = [1, 2, 4, 3, 6], target = 11 
