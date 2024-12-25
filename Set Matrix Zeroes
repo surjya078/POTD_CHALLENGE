@@ -21,6 +21,7 @@ Input: mat[][] = [[0, 1, 2, 0],
 Output: [[0, 0, 0, 0],
         [0, 4, 5, 0],
         [0, 3, 1, 0]]
+
 Explanation: mat[0][0] and mat[0][3] are 0s, so all elements in row 0, column 0 and column 3 are updated to zeroes.
 
 
