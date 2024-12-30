@@ -13,7 +13,7 @@ Explanation: Union set of both the arrays will be 1, 2, 3, 4 and 5. So count is 
 
 Input: a[] = [85, 25, 1, 32, 54, 6], b[] = [85, 2]  
 Output: 7
-Explanation: Union set of both the arrays will be 85, 25, 1, 32, 54, 6, and 2. So count is 7.
+Explanation: Union set of both the arrays will be 85, 25, 1, 32, 54, 6, and 2. So count is 7. 
 
 Input: a[] = [1, 2, 1, 1, 2], b[] = [2, 2, 1, 2, 1] 
 Output: 2  
