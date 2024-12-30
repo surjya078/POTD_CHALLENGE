@@ -21,7 +21,7 @@ Explanation: We need to consider only distinct. So count of elements in union se
 
 
 ANSWER :-
-
+ 
 class Solution {
     public static int findUnion(int a[], int b[]) {
         // code here
