@@ -12,7 +12,7 @@ Explanation: The subarrays having XOR of their elements as 5 are [5] and [5, 6, 
  
 
 ANSWER :-
- 
+  
 class Solution { 
      public long subarrayXor(int arr[], int k) {
         HashMap<Integer, Integer> map = new HashMap<>(); 
