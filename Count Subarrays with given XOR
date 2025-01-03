@@ -9,7 +9,7 @@ Explanation: The subarrays having XOR of their elements as 6 are [4, 2], [4, 2, 
 Input: arr[] = [5, 6, 7, 8, 9], k = 5
 Output: 2 
 Explanation: The subarrays having XOR of their elements as 5 are [5] and [5, 6, 7, 8, 9]. Hence, the answer is 2.
-
+ 
 
 ANSWER :-
 
