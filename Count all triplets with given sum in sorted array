@@ -10,7 +10,7 @@ arr[0] + arr[1] + arr[5] = (-3) + (-1) + (2) = -2
 arr[0] + arr[2] + arr[5] = (-3) + (-1) + (2) = -2
 arr[1] + arr[2] + arr[3] = (-1) + (-1) + (0) = -2
 
-Input: arr[] = [-2, 0, 1, 1, 5], target = 1
+Input: arr[] = [-2, 0, 1, 1, 5], target = 1 
 Output: 0
 Explanation: There is no triplet whose sum is equal to 1. 
 
