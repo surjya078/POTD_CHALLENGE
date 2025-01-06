@@ -8,7 +8,7 @@ Output: 3
 Explanation: There are 2 pairs which sum up to 6 : {1, 5}, {1, 5} and {-1, 7}.
 
 Input: arr[] = [1, 1, 1, 1], target = 2
-Output: 6
+Output: 6 
 Explanation: There are 6 pairs which sum up to 2 : {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1} and {1, 1}.
 
 Input: arr[] = [-1, 10, 10, 12, 15], target = 125
