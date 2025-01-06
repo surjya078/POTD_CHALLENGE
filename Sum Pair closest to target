@@ -6,7 +6,7 @@ Examples:
 
 Input: arr[] = [10, 30, 20, 5], target = 25
 Output: [5, 20]
-Explanation: As 5 + 20 = 25 is closest to 25.
+Explanation: As 5 + 20 = 25 is closest to 25. 
 
 Input: arr[] = [5, 2, 7, 1, 4], target = 10
 Output: [2, 7]
