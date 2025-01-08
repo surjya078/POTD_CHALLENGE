@@ -12,7 +12,7 @@ Explanation: There are three triangles possible [3, 4, 6], [4, 6, 7] and [3, 6, 
 Input: arr[] = [10, 21, 22, 100, 101, 200, 300] 
 Output: 6
 Explanation: There can be 6 possible triangles: [10, 21, 22], [21, 100, 101], [22, 100, 101], [10, 100, 101], [100, 101, 200] and [101, 200, 300]
-
+ 
 Input: arr[] = [1, 2, 3]
 Output: 0
 Explanation: No triangles are possible.
