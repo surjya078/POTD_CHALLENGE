@@ -21,3 +21,28 @@ Explanation: There is no subarray with sum 2.
 
 ANSWER :-
 
+class Solution {
+    static ArrayList<Integer> subarraySum(int[] arr, int target) {
+        // code here
+        ArrayList<Integer> list = new ArrayList<>();
+        int left = 0, sum = 0;
+        
+        for (int right = 0; right < arr.length; right++) {
+            sum += arr[right];
+            
+            while (left < right && right < arr.length && sum > target) {
+                sum -= arr[left++];
+            }
+            
+            if (sum == target) {
+                list.add(left + 1);
+                list.add(right + 1);
+                return list;
+            }
+        }
+        
+        list.add(-1);
+        
+        return list;
+    }
+}
