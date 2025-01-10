@@ -35,7 +35,7 @@ class Solution {
                 hm.put(arr[i], hm.get(arr[i])-1);
                 if(hm.get(arr[i]) ==0){
                     hm.remove(arr[i]);
-                }
+                } 
                 i++;
             }
             if(j-i+1 ==k){
