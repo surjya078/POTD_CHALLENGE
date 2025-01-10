@@ -14,7 +14,7 @@ Output: [2, 1]
 Explanation: Window 1 of size k = 2 is 4 1. Number of distinct elements in this window are 2.  
 Window 2 of size k = 2 is 1 1. Number of distinct elements in this window is 1. 
 
-Input: arr[] = [1, 1, 1, 1, 1], k = 3
+Input: arr[] = [1, 1, 1, 1, 1], k = 3 
 Output: [1, 1, 1]
 
 
