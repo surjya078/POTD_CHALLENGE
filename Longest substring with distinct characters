@@ -11,3 +11,8 @@ Input: s = "aaa"
 Output: 1
 Explanation: "a" is the longest substring with all distinct characters.
 
+Input: s = "abcdefabcbb"
+Output: 6
+Explanation: The longest substring with all distinct characters is "abcdef", which has a length of 6.
+
+
