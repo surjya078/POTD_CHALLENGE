@@ -14,4 +14,8 @@ Input: arr[] = [3, 1, 2, 4, 5]
 Output: 12
 Explanation: 5 and 3 are 4 distance apart. So the size of the base is 4. Height of container = min(5, 3) = 3. So, total area to hold water = 4 * 3 = 12.
 
+Input: arr[] = [2, 1, 8, 6, 4, 6, 5, 5]
+Output: 25 
+Explanation: 8 and 5 are 5 distance apart. So the size of the base is 5. Height of container = min(8, 5) = 5. So, the total area to hold water = 5 * 5 = 25.
+
 
