@@ -19,3 +19,6 @@ Output: 25
 Explanation: 8 and 5 are 5 distance apart. So the size of the base is 5. Height of container = min(8, 5) = 5. So, the total area to hold water = 5 * 5 = 25.
 
 
+ANSWER :-
+
+
