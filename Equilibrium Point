@@ -11,7 +11,7 @@ Explanation: The sum of left of index 2 is 1 + 2 = 3 and sum on right of index 2
 
 Input: arr[] = [1, 1, 1, 1]
 Output: -1
-Explanation: There is no equilibrium index in the array.
+Explanation: There is no equilibrium index in the array. 
 
 Input: arr[] = [-7, 1, 5, 2, -4, 3, 0]
 Output: 3
