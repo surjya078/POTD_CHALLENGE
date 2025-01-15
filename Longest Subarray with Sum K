@@ -13,7 +13,7 @@ Explanation: Only subarray with sum = 15 is [-5, 8, -14, 2, 4] of length 5.
 
 Input: arr[] = [10, -10, 20, 30], k = 5
 Output: 0
-Explanation: No subarray with sum = 5 is present in arr[].
+Explanation: No subarray with sum = 5 is present in arr[]. 
 
 
 ANSWER :-
