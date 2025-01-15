@@ -17,7 +17,7 @@ Explanation: No subarray with sum = 5 is present in arr[].
 
 
 ANSWER :-
-
+ 
 class Solution {
     public int longestSubarray(int[] arr, int k) {
         // Map to store the prefix sum and its index
