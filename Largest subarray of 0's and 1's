@@ -8,7 +8,7 @@ Explanation: arr[1...6] is the longest subarray with three 0s and three 1s.
 
 Input: arr[] = [0, 0, 1, 1, 0]
 Output: 4
-Explnation: arr[0...3] or arr[1...4] is the longest subarray with two 0s and two 1s.
+Explnation: arr[0...3] or arr[1...4] is the longest subarray with two 0s and two 1s. 
 
 Input: arr[] = [0]
 Output: 0
