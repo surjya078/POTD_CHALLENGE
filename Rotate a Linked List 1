@@ -14,7 +14,7 @@ Input: head = 10 -> 20 -> 30 -> 40 , k = 6
 Output: 30 -> 40 -> 10 -> 20 
 
 
-ANSWER :-
+ANSWER :- 
 
 class Solution {
     public Node rotate(Node head, int k) {
