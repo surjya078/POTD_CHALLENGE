@@ -22,7 +22,7 @@ class Solution {
         int size=0;
         Node head1=head; 
         Node prev=null;
-        while(head1!=null){
+        while(head1!=null){ 
             prev=head1;
             head1=head1.next;
             size++;
