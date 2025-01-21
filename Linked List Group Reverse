@@ -14,3 +14,40 @@ Explanation: The first 3 elements 1, 2, 3 are reversed first and then left out e
 
 ANSWER :-
 
+class Solution {
+    public static Node reverseKGroup(Node head, int k) {
+        // code here
+        if(head == null) return head;
+        
+        Node nhead = null;
+        Node tail = null;
+        Node cur = head;
+        
+        while(cur != null){
+            Node prev = null;
+            Node grhead = cur;
+            Node nexn =  null;
+            int count = 0;
+            
+            while(cur != null && count < k){
+                nexn = cur.next;
+                cur.next = prev;
+                prev = cur;
+                cur = nexn;
+                count++;
+            }
+            
+            if(nhead == null){
+                nhead = prev;
+            }
+            
+            if(tail != null){
+                tail.next = prev;
+            }
+            
+            tail = grhead;
+        }
+        
+        return nhead;
+    }
+}
