@@ -27,6 +27,7 @@ Node 2 points to Node 3 as its NEXT and Node 1 as its RANDOM.
 Node 3 points to Node 4 as its NEXT and Node 5 as its RANDOM.
 Node 4 points to Node 5 as its NEXT and Node 3 as its RANDOM.
 Node 5 points to NULL as its NEXT and Node 2 as its RANDOM.
+
 Input: head = [[7, NULL], [7, NULL]]
 Output: head = [[7, NULL], [7, NULL]]
 Explanation: 
