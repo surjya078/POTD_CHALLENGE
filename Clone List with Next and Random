@@ -33,3 +33,8 @@ Output: head = [[7, NULL], [7, NULL]]
 Explanation: 
 Node 1 points to Node 2 as its NEXT and NULL as its RANDOM.
 Node 2 points to NULL as its NEXT and NULL as its RANDOM.
+
+
+ANSWER :-
+
+
