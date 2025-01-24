@@ -22,3 +22,17 @@ Explanation: There exists a loop as last node is connected back to the first nod
 
 ANSWER :-
 
+class Solution {
+    // Function to check if the linked list has a loop.
+    public static boolean detectLoop(Node head) {
+        // Add code here
+        HashSet<Node> set = new HashSet<>();
+        for(Node current = head; current != null; current = current.next){
+            if(set.contains(current))
+               return true;
+
+              set.add(current);
+        }
+        return false;
+    }
+}
