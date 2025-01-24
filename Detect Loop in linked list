@@ -15,3 +15,10 @@ Input: head: 1 -> 8 -> 3 -> 4, pos = 0
 Output: false
 Explanation: There exists no loop in given linked list.
 
+Input: head: 1 -> 2 -> 3 -> 4, pos = 1
+Output: true
+Explanation: There exists a loop as last node is connected back to the first node.
+
+
+ANSWER :-
+
