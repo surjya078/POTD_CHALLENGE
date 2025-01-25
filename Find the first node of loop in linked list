@@ -17,3 +17,26 @@ Input:
  1 -> 3 -> 2 -> 1
 Output: -1
 Explanation: No loop exists in the above linked list.So the output is -1.
+
+
+ANSWER :-
+
+class Solution {
+    public static Node findFirstNode(Node head) {
+        // code here
+        Node s=head,f=head;
+        while(f!=null && f.next!=null) {
+            s=s.next;
+            f=f.next.next;
+            if(s==f) {
+                s=head;
+                while(s!=f) {
+                    s=s.next;
+                    f=f.next;
+                }
+                return s;
+            }
+        }
+        return null;
+    }
+}
