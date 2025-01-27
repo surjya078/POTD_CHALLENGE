@@ -5,3 +5,5 @@ Design a data structure that works like a LRU Cache. Here cap denotes the capaci
 
 The LRUCache class has two methods get() and put() which are defined as follows.
 
+1. get(key): returns the value of the key if it already exists in the cache otherwise returns -1.
+2. 
