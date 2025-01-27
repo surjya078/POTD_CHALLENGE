@@ -17,5 +17,8 @@ Output: [2]
 Explanation: Cache Size = 2
 ["PUT", 1, 2] will insert the key-value pair (1, 2) in the cache,
 ["GET", 1] will print the value corresponding to Key 1, ie 2.
+Input: cap = 2, Q = 8, Queries = [["PUT", 1, 2], ["PUT", 2, 3], ["PUT", 1, 5], ["PUT", 4, 5], ["PUT", 6, 7], ["GET", 4], ["PUT", 1, 2], ["GET", 3]]
+Output: [5, -1]
+Explanation: Cache Size = 2
 
 
