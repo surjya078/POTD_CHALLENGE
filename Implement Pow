@@ -14,3 +14,12 @@ Output: -16.49971
 
 ANSWER :-
 
+class Solution {
+    double power(double b, int e) {
+        // code here
+        double c = Math.pow(b,e);
+        return c;
+        
+    }
+}
+
