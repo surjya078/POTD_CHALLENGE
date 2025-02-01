@@ -9,3 +9,10 @@ Explanation:
 
 The letter cells which are used to construct the "GEEK" are colored.
 
+Input: mat[][] = [['T', 'E', 'U'], ['S', 'G', 'K'], ['T', 'E', 'L']], word = "GEEK"
+Output: false
+Explanation:
+
+It is impossible to construct the string word from the mat using each cell only once.
+
+
