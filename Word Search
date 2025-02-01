@@ -15,4 +15,8 @@ Explanation:
 
 It is impossible to construct the string word from the mat using each cell only once.
 
+Input: mat[][] = [['A', 'B', 'A'], ['B', 'A', 'B']], word = "AB"
+Output: true
+Explanation:
 
+There are multiple ways to construct the word "AB".
