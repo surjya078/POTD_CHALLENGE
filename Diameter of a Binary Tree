@@ -16,3 +16,15 @@ Explanation: The longest path has 4 edges (node 3 -> node 8 -> node 5 -> node 6 
 
 ANSWER :-
 
+int fans=0;
+    int diameter(Node root) {
+        depth(root);
+        return fans;
+    }
+    int depth(Node root){
+        if(root==null) return 0;
+        int l=depth(root.left); 
+        int r=depth(root.right); 
+        fans=Math.max(fans,l+r);
+        return 1+Math.max(l,r);
+    }
