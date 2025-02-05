@@ -22,7 +22,7 @@ Explanation: The preorder traversal of the following BST formed is [4, 2, 1, 3, 
        / \
       2   6
      / \   / \
-    1 3  5 7
+    1   3  5 7
 
 
 ANSWER :-
