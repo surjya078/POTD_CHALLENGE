@@ -21,7 +21,7 @@ Input:
   40  60
 Output: 30 10 60 20 40
 Explanation: The tree is
-      10               10
+      10                  10
     /    \  (mirror)    /    \
    20    30    =>   30    20
   /  \                     /   \
