@@ -37,7 +37,7 @@ ANSWER :-
 // FUNCTION CODE
 /* A Binary Tree node
 class Node
-{
+{ 
     int data;
     Node left, right;
    Node(int item)
