@@ -19,3 +19,17 @@ Explanation: The in-order traversal of the given binary tree is [1, 7, 10, 8, 6,
 
 ANSWER :-
 
+class Solution {
+    // Function to return a list containing the inorder traversal of the tree.
+    ArrayList<Integer> inOrder(Node root) {
+        if(root==null) return new ArrayList<Integer>();
+        
+        ArrayList<Integer> path1 = inOrder(root.left);
+        path1.add(root.data);
+        ArrayList<Integer> path2 = inOrder(root.right);
+        
+        path1.addAll(path2);
+        
+        return path1;
+    }
+}
