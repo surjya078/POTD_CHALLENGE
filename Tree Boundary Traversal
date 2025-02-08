@@ -2,3 +2,6 @@ Given a Binary Tree, find its Boundary Traversal. The traversal should be in the
 
 1. Left Boundary: This includes all the nodes on the path from the root to the leftmost leaf node.
 You must prefer the left child over the right child when traversing. Do not include leaf nodes in this section.
+
+2. Leaf Nodes: All leaf nodes, in left-to-right order, that are not part of the left or right boundary.
+
