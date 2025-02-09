@@ -7,6 +7,7 @@ Output: 42
 Explanation: 
 
 Max path sum is represented using green colour nodes in the above binary tree.
+
 Input: root[] = [-17, 11, 4, 20, -2, 10]
 Output: 31
 Explanation: 
