@@ -18,7 +18,9 @@ path 2 : 4 + 2 + 1 = 7
 path 3 : 5 + 2  = 7
  
 Input: k = 3
-
+      1
+     /  \
+    2    3
 Output: 2
 Explanation:
 Path 1 : 1 -> 2 (Sum = 3)
