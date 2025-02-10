@@ -13,6 +13,9 @@ Input: k = 7
        3    -2    1
 Output: 3
 Explanation: The following paths sum to k 
+path 1 : 4 + 3 = 7
+path 2 :-
+path 3 :-
  
 Input: k = 3
 
