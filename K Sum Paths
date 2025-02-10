@@ -8,3 +8,9 @@ Input: k = 7
 Output: 3
 Explanation: The following paths sum to k 
  
+Input: k = 3
+
+Output: 2
+Explanation:
+Path 1 : 1 -> 2 (Sum = 3)
+Path 2 : 3 (Sum = 3)
