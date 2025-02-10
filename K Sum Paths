@@ -2,3 +2,9 @@ Given a binary tree and an integer k, determine the number of downward-only path
 A path can start and end at any node within the tree but must always move downward (from parent to child).
 
 Examples:
+
+Input: k = 7   
+
+Output: 3
+Explanation: The following paths sum to k 
+ 
