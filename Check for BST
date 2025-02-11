@@ -16,7 +16,7 @@ Input:
 Output: true 
 Explanation: 
 The left subtree of every node contains smaller keys and right subtree of every node contains greater. Hence, the tree is a BST.
-Input:
+Input: 
   2
    \
     7
