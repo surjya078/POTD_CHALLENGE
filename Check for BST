@@ -7,7 +7,7 @@ The right subtree of a node contains only nodes with keys greater than the node'
 Both the left and right subtrees must also be binary search trees.
 Examples:
 
-Input:
+Input: 
    2 
  /    \ 
 1      3
