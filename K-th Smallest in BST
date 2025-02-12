@@ -17,7 +17,13 @@ Output: -1
 Explanation: There is no 5th smallest element in the BST as the size of BST is 3.
 
 Input: root = [20, 8, 22, 4, 12, N, N, N, N, 10, 14], k = 3
-     
+           20
+         /    \
+        8      22
+      /   \
+     4    12
+         /  \
+        10   14
 Output: 10
 Explanation: 10 is the 3rd smallest element in the BST.
 
