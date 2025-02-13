@@ -15,7 +15,7 @@ Explanation: In the binary tree above, there are no such two nodes exists that a
 
 ANSWER :-
 
-class Solution {
+class Solution { 
     HashSet<Integer> s=new HashSet<>();
     boolean findTarget(Node root, int target) {
         if(root==null) return false;
