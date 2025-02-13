@@ -12,3 +12,6 @@ Input: root = [9, 5, 10, 2, 6, N, 12], target = 23
 Output: False
 Explanation: In the binary tree above, there are no such two nodes exists that add up to 23.
 
+
+ANSWER :-
+
