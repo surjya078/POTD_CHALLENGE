@@ -19,3 +19,60 @@ Explanation: The nodes 10 and 5 were swapped.
 
 ANSWER :-
 
+class Solution {
+    Node first, middle, last, prev;
+
+    void correctBST(Node root) {
+        first = middle = last = prev = null;
+        
+        // Inorder traversal to find swapped nodes
+        inorderTraversal(root);
+        
+        // Case 1: Swapped nodes are not adjacent
+        if (first != null && last != null) {
+            int temp = first.data;
+            first.data = last.data;
+            last.data = temp;
+        }
+        // Case 2: Swapped nodes are adjacent
+        else if (first != null && middle != null) {
+            int temp = first.data;
+            first.data = middle.data;
+            middle.data = temp;
+        }
+    }
+
+    void inorderTraversal(Node root) {
+        if (root == null) return;
+
+        // Left subtree
+        inorderTraversal(root.left);
+
+        // Check for violation
+        if (prev != null && root.data < prev.data) {
+            // First violation
+            if (first == null) {
+                first = prev;
+                middle = root;
+            }
+            // Second violation
+            else {
+                last = root;
+            }
+        }
+
+        // Update previous node
+        prev = root;
+
+        // Right subtree
+        inorderTraversal(root.right);
+    }
+
+    // Function to print inorder traversal (for testing)
+    void printInorder(Node root) {
+        if (root == null) return;
+        printInorder(root.left);
+        System.out.print(root.data + " ");
+        printInorder(root.right);
+    }
+}
