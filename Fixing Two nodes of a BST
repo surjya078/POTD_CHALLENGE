@@ -7,7 +7,7 @@ Examples :
 Input: root = [10, 5, 8, 2, 20]
      
 Output: 1
-       
+        
 
 Explanation: The nodes 20 and 8 were swapped. 
 Input: root = [5, 10, 20, 2, 8]
