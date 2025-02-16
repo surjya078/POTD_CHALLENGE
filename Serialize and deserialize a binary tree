@@ -9,7 +9,9 @@ deSerialize(serialize(input_tree)) is same as the input tree. Driver code will p
 Examples :
 
 Input: root = [1, 2, 3]
-      
+       1
+     /   \
+    2     3
 Output: [2, 1, 3]
 
 Input: root = [10, 20, 30, 40, 60, N, N]
