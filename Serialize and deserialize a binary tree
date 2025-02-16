@@ -6,3 +6,9 @@ Serialization is to store a tree in an array so that it can be later restored an
 Note: Multiple nodes can have the same data and the node values are always positive integers. Your code will be correct if the tree returned by
 deSerialize(serialize(input_tree)) is same as the input tree. Driver code will print the in-order traversal of the tree returned by deSerialize(serialize(input_tree)).
 
+Examples :
+
+Input: root = [1, 2, 3]
+      
+Output: [2, 1, 3]
+
