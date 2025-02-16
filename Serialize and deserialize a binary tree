@@ -1,1 +1,1 @@
-
+Serialization is to store a tree in an array so that it can be later restored and deserialization is reading tree back from the array. Complete the functions
