@@ -18,3 +18,13 @@ Point (5, 8) = sqrt(89)
 Point (0, 1) = sqrt(1)
 The two closest points to the origin are [-2, 2] and [0, 1].
 
+Input: k = 1, points = [[2, 4], [-1, -1], [0, 0]]
+Output: [[0, 0]]
+Explanation: The Euclidean distances from the origin are:
+Point (2, 4) = sqrt(20)
+Point (-1, -1) = sqrt(2)
+Point (0, 0) = sqrt(0)
+The closest point to origin is (0, 0).
+
+
+
