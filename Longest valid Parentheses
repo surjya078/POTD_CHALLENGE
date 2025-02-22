@@ -28,7 +28,7 @@ class Solution{
             if(!st.isEmpty()){
                 char curr = S.charAt(i);
                 int tidx = st.peek();
-                char top = S.charAt(tidx);
+                char top = S.charAt(tidx); 
                 if(curr == ')' && top == '('){
                     if(tidx > 0){
                         currMax = i-tidx+1+dp[tidx-1];
