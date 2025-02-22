@@ -9,6 +9,7 @@ Examples :
 Input: str = ((()
 Output: 2
 Explaination: The longest valid parenthesis substring is "()".
+
 Input: str = )()())
 Output: 4 
 Explaination: The longest valid parenthesis substring is "()()".
