@@ -18,3 +18,10 @@ Input: arr[] = [10, 20, 30, 50]
 Output: [20, 30, 50, -1]
 Explanation: For a sorted array, the next element is next greater element also exxept for the last element.
 
+Input: arr[] = [50, 40, 30, 10]
+Output: [-1, -1, -1, -1]
+Explanation: There is no greater element for any of the elements in the array, so all are -1.
+
+
+ANSWER :-
+
