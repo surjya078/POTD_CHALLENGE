@@ -20,3 +20,6 @@ Input: arr = ["100", "200", "+", "2", "/", "5", "*", "7", "+"]
 Output: 757
 Explanation: If the expression is converted into an infix expression, it will be ((100 + 200) / 2) * 5 + 7  = 150 * 5 + 7 = 757.
 
+
+ANSWER :-
+
