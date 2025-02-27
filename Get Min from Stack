@@ -25,4 +25,10 @@ getMin(): Minimum element is 2
 push(1): Stack is [2, 1]
 getMin(): Minimum element is 1
 
-
+Input: q = 4, queries = [[1, 4], [1, 2], [4], [3]]
+Output: [2, 2]
+Explanation: 
+push(4): Stack is [4]
+push(2): Stack is [4, 2]
+getMin(): Minimum element is 2
+peek(): Top element is 2
