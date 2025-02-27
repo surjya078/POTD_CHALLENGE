@@ -4,7 +4,7 @@ Your task is to evaluate the expression and return an integer representing its v
 Key Details:
 
 1. The valid operators are '+', '-', '*', and '/'.
-Each operand is guaranteed to be a valid integer or another expression.
+2. Each operand is guaranteed to be a valid integer or another expression.
 The division operation between two integers always rounds the result towards zero, discarding any fractional part.
 No division by zero will occur in the input.
 The input is a valid arithmetic expression in Reverse Polish Notation.
