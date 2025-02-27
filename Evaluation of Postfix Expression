@@ -23,3 +23,52 @@ Explanation: If the expression is converted into an infix expression, it will be
 
 ANSWER :-
 
+ public int evaluate(String[] arr) {
+        int finalVal = 0;
+        if(arr == null || arr.length==0)
+        return finalVal;
+        
+        int n = arr.length;
+        ArrayDeque<Integer> st = new ArrayDeque<>();
+        for(int i=0;i<n;i++)
+        {
+            if(isNumeric(arr[i]))
+            st.push(Integer.parseInt(arr[i]));
+            else
+            {
+                int first = st.pop();
+                int second = st.pop();
+                int res = 0;
+                switch(arr[i])
+                {
+                    
+                    case "+":
+                        res = second+first;
+                        break;
+                    case "-":
+                        res = second - first;
+                        break;
+                    case "/":
+                        if(first==0)
+                        res = 0;
+                        else
+                        res = second/first; //first != 0
+                        break;
+                    case "*":
+                        res = second*first;
+                }
+                st.push(res);
+            }
+            
+        }
+        return st.size() != 1?0:st.peek();
+    }
+    private boolean isNumeric(String s)
+    {
+        try{
+            int n = Integer.parseInt(s);
+            return true;
+        }
+        catch(NumberFormatException e){
+        return false;}
+    }
