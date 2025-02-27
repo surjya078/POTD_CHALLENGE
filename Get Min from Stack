@@ -32,3 +32,18 @@ push(4): Stack is [4]
 push(2): Stack is [4, 2]
 getMin(): Minimum element is 2
 peek(): Top element is 2
+
+Input: q = 5, queries = [[1, 10], [4], [1, 5], [4], [2]]
+Output: [10, 5]
+Explanation: 
+push(10): Stack is [10]
+getMin(): Minimum element is 10
+push(5): Stack is [10, 5]
+getMin(): Minimum element is 5
+pop(): Removes 5, stack is [10]
+
+
+
+ANSWER :-
+
+
