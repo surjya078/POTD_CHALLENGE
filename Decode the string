@@ -11,7 +11,7 @@ Explanation: "b" is present only one time.
 
 Input: s = "3[b2[ca]]"
 Output: "bcacabcacabcaca" 
-Explanation:
+Explanation: 
 1. Inner substring “2[ca]” breakdown into “caca”.
 2. Now, new string becomes “3[bcaca]”
 3. Similarly “3[bcaca]” becomes “bcacabcacabcaca ” which is final result.
