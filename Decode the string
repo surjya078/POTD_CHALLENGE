@@ -15,7 +15,7 @@ Explanation:
 1. Inner substring “2[ca]” breakdown into “caca”.
 2. Now, new string becomes “3[bcaca]”
 3. Similarly “3[bcaca]” becomes “bcacabcacabcaca ” which is final result.
-
+ 
 
 ANSWER :-
 
