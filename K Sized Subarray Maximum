@@ -10,7 +10,7 @@ Explanation:
 3rd contiguous subarray = [3 1 4] max = 4
 4th contiguous subarray = [1 4 5] max = 5
 5th contiguous subarray = [4 5 2] max = 5
-6th contiguous subarray = [5 2 3] max = 5
+6th contiguous subarray = [5 2 3] max = 5 
 7th contiguous subarray = [2 3 6] max = 6
 
 Input: k = 4, arr[] = [8, 5, 10, 7, 9, 4, 15, 12, 90, 13]
