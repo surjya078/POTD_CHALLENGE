@@ -15,7 +15,7 @@ Explanation: The sub-array described by indexes [3..6], i.e. [2, 4, 7, 2] contai
 
 
 ANSWER :-
-
+ 
 public ArrayList<Integer> longestSubarray(int[] arr, int x) 
     {
         Deque<Integer> dq=new LinkedList<>();
