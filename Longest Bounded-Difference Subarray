@@ -14,7 +14,7 @@ Output: [2, 4, 7, 2]
 Explanation: The sub-array described by indexes [3..6], i.e. [2, 4, 7, 2] contains no such difference of two elements which is greater than 5. 
 
 
-ANSWER :-
+ANSWER :- 
  
 public ArrayList<Integer> longestSubarray(int[] arr, int x) 
     {
