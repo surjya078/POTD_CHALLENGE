@@ -17,3 +17,9 @@ Input: words[] = ["abc", "a", "ab"]
 Output: 3
 Explanation: The longest chain is {"a", "ab" "abc"}
 
+Input: words[] = ["abcd", "dbqca"]
+Output: 1
+Explanation: The trivial word chain ["abcd"] is one of the longest word chains.
+
+ANSWER :-
+
