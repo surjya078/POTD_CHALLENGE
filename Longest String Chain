@@ -6,3 +6,10 @@ A word chain is a sequence of words [word1, word2, ..., wordk] with k >= 1, wher
 A single word is trivially a word chain with k = 1.
 
 Return the length of the longest possible word chain with words chosen from the given list of words in any order.
+
+Examples:
+
+Input: words[] = ["ba", "b", "a", "bca", "bda", "bdca"]
+Output: 4
+Explanation: One of the longest word chains is ["a", "ba", "bda", "bdca"].
+
