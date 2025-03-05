@@ -13,3 +13,7 @@ Input: words[] = ["ba", "b", "a", "bca", "bda", "bdca"]
 Output: 4
 Explanation: One of the longest word chains is ["a", "ba", "bda", "bdca"].
 
+Input: words[] = ["abc", "a", "ab"]
+Output: 3
+Explanation: The longest chain is {"a", "ab" "abc"}
+
