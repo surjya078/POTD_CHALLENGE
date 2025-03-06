@@ -9,3 +9,7 @@ Input: s1 = "ABCDGH", s2 = "AEDFHR"
 Output: 3
 Explanation: The longest common subsequence of "ABCDGH" and "AEDFHR" is "ADH", which has a length of 3.
 
+Input: s1 = "ABC", s2 = "AC"
+Output: 2
+Explanation: The longest common subsequence of "ABC" and "AC" is "AC", which has a length of 2.
+
