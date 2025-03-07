@@ -14,4 +14,9 @@ Input: s = "abcd"
 Output: 1
 Explanation: "a", "b", "c" and "d" are palindromic and all have a length 1.
 
+Input: s = "agbdba"
+Output: 5
+Explanation: The longest palindromic subsequence is "abdba", which has a length of 5. The characters in this subsequence are taken from the original string "agbdba",
+and they maintain the order of the string while forming a palindrome.
+
 
