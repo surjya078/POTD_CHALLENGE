@@ -6,4 +6,8 @@ A palindromic sequence is a sequence that reads the same forward and backward.
 
 Examples:
 
+Input: s = "bbabcbcab"
+Output: 7
+Explanation: Subsequence "babcbab" is the longest subsequence which is also a palindrome.
+
 
