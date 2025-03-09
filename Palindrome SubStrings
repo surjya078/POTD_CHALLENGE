@@ -7,3 +7,7 @@ Input: s = "abaab"
 Output: 3
 Explanation: All palindromic substrings are : "aba" , "aa" , "baab".
 
+Input: s = "aaa"
+Output: 3
+Explanation: All palindromic substrings are : "aa", "aa", "aaa".
+
