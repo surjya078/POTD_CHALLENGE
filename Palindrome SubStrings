@@ -18,3 +18,21 @@ Explanation: All palindromic substrings are : "bb" , "abba" , "aea", "eae".
 
 ANSWER :-
 
+class Solution {
+   public int countPS(String str) {
+        int ans=0,n=str.length(),goToLeft,goToRight;
+        for(int i=0;i<n-1;i++){
+            for(goToLeft=i,goToRight=i;goToLeft>-1&&goToRight<n&&str.charAt(goToLeft)==str.charAt(goToRight);goToLeft--,goToRight++){
+                if(goToRight>goToLeft){
+                    ans++;
+                }
+            }
+            for(goToLeft=i,goToRight=i+1;goToLeft>-1&&goToRight<n&&str.charAt(goToLeft)==str.charAt(goToRight);goToLeft--,goToRight++){
+                if(goToRight>goToLeft){
+                    ans++;
+                }
+            }
+        }
+        return ans;
+    }
+}
