@@ -11,7 +11,7 @@ Input: s = "aaa"
 Output: 3
 Explanation: All palindromic substrings are : "aa", "aa", "aaa".
 
-Input: s = "abbaeae"
+Input: s = "abbaeae" 
 Output: 4
 Explanation: All palindromic substrings are : "bb" , "abba" , "aea", "eae". 
 
