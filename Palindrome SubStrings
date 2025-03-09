@@ -13,7 +13,7 @@ Explanation: All palindromic substrings are : "aa", "aa", "aaa".
 
 Input: s = "abbaeae"
 Output: 4
-Explanation: All palindromic substrings are : "bb" , "abba" , "aea", "eae".
+Explanation: All palindromic substrings are : "bb" , "abba" , "aea", "eae". 
 
 
 ANSWER :-
