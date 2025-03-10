@@ -8,7 +8,7 @@ Examples:
 
 Input: str1 = "geek", srt2 = "gesek"
 Output: 1
-Explanation: One operation is required, inserting 's' between two 'e'.
+Explanation: One operation is required, inserting 's' between two 'e'. 
 Input : str1 = "gfg", str2 = "gfg"
 Output: 0
 Explanation: Both strings are same.
