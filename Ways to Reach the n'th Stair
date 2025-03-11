@@ -11,3 +11,7 @@ Input: n = 2
 Output: 2
 Explanation: There are 2 ways to reach 2th stair: {1, 1} and {2}. 
 
+Input: n = 4
+Output: 5
+Explanation: There are five ways to reach 4th stair: {1, 1, 1, 1}, {1, 1, 2}, {2, 1, 1}, {1, 2, 1} and {2, 2}.
+
