@@ -16,7 +16,7 @@ Explanation: Cheapest option is to start on cost[0], and only step on 1s, skippi
  
 
 
-ANSWER :-
+ANSWER :- 
 
 class Solution {
     static int minCostClimbingStairs(int[] cost) {
