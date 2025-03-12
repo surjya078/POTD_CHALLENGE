@@ -2,4 +2,6 @@ Given an array of integers cost[] where cost[i] is the cost of the ith step on a
 Return the minimum cost to reach the top of the floor.
 Assume 0-based Indexing. You can either start from the step with index 0, or the step with index 1.
 
+Examples :-
+
 
