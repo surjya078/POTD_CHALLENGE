@@ -1,1 +1,2 @@
-Given n items, each with a specific weight and value, and a knapsack with a capacity of W, the task is to put the items in the knapsack such that the sum of weights of the items <= W and the sum of values associated with them is maximized. 
+Given n items, each with a specific weight and value, and a knapsack with a capacity of W, the task is to put the items in the knapsack
+such that the sum of weights of the items <= W and the sum of values associated with them is maximized. 
