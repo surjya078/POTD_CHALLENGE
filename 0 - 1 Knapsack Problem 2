@@ -16,3 +16,8 @@ Explanation: Every item has a weight exceeding the knapsack's capacity (3).
 Input: W = 5, val[] = [10, 40, 30, 50], wt[] = [5, 4, 2, 3] 
 Output: 80
 Explanation: Choose the third item (value 30, weight 2) and the last item (value 50, weight 3) for a total value of 80.
+
+
+ANSWER :-
+
+
