@@ -14,4 +14,12 @@ Input: coins[] = [2, 5, 3, 6], sum = 10
 Output: 5
 Explanation: Five Possible ways are: [2, 2, 2, 2, 2], [2, 2, 3, 3], [2, 2, 6], [2, 3, 5] and [5, 5].
 
+Input: coins[] = [5, 10], sum = 3
+Output: 0
+Explanation: Since all coin denominations are greater than sum, no combination can make the target sum.
+
+
+ANSWER :-
+
+
 
