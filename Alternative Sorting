@@ -13,7 +13,7 @@ Explanation: The first element is first maximum and second element is first mini
 ANSWER :-
 
 class Solution {
-    public static ArrayList<Integer> alternateSort(int[] arr) {
+    public static ArrayList<Integer> alternateSort(int[] arr) { 
        ArrayList<Integer>ans=new ArrayList<>();
       Arrays.sort(arr);
       int i=0;
