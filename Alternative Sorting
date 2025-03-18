@@ -9,7 +9,7 @@ Explanation: The first element is first maximum and second element is first mini
 Input: arr[] = [1, 6, 9, 4, 3, 7, 8, 2]
 Output: [9, 1, 8, 2, 7, 3, 6, 4]
 Explanation: The first element is first maximum and second element is first minimum and so on.
-
+ 
 ANSWER :-
 
 class Solution {
