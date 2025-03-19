@@ -15,4 +15,17 @@ Then he buys at 5 and sell at 80.
 Profit earned in 2nd transaction = 80 - 5 = 75. 
 Total profit earned = 12 + 75 = 87. 
 
+Input: prices[] = [2, 30, 15, 10, 8, 25, 80]
+Output: 100
+Explanation: 
+Trader will buy at 2 and sells at 30. 
+Profit earned in 1st transaction = 30 - 2 = 28. 
+Then he buys at 8 and sell at 80. 
+Profit earned in 2nd transaction = 80 - 8 = 72. 
+Total profit earned = 28 + 72 = 100.
+
+
+
+ANSWER :-
+
 
