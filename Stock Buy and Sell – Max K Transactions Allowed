@@ -7,7 +7,7 @@ Examples :
 
 Input: prices[] = [10, 22, 5, 80], k = 2
 Output: 87
-Explaination:
+Explaination: 
 1st transaction: Buy at 10 and sell at 22.  
 2nd transaction : Buy at 5 and sell at 80.
 Total Profit will be 12 + 75 = 87.
