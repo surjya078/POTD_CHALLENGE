@@ -14,7 +14,7 @@ Total Profit will be 12 + 75 = 87.
  
 Input: prices[] = [20, 580, 420, 900], k = 3
 Output: 1040 
-Explaination: 
+Explaination:  
 1st transaction: Buy at 20 and sell at 580. 
 2nd transaction : Buy at 420 and sell at 900.
 Total Profit will be 560 + 480 = 1040.
