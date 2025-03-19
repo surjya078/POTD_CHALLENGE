@@ -19,3 +19,11 @@ Explaination:
 2nd transaction : Buy at 420 and sell at 900.
 Total Profit will be 560 + 480 = 1040.
 
+Input: prices[] = [100, 90, 80, 50, 25],  k = 1
+Output: 0
+Explaination: Selling price is decreasing continuously
+leading to loss. So seller cannot have any profit.
+
+
+ANSWER :-
+
