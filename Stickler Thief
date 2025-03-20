@@ -9,7 +9,7 @@ Examples:
 Input: arr[] = [6, 5, 5, 7, 4]
 Output: 15
 Explanation: Maximum amount he can get by looting 1st, 3rd and 5th house. Which is 6 + 5 + 4 = 15. 
-
+ 
 Input: arr[] = [1, 5, 3]
 Output: 5
 Explanation: Loot only 2nd house and get maximum amount of 5.
