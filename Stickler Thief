@@ -18,3 +18,7 @@ Input: arr[] = [4, 4, 4, 4]
 Output: 8
 Explanation: The optimal choice is to loot every alternate house. Looting the 1st and 3rd houses, or the 2nd and 4th, both give a maximum total of 4 + 4 = 8.
 
+
+ANSWER :-
+
+
