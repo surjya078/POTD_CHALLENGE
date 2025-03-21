@@ -15,4 +15,11 @@ Input: arr[] = [1, 2, 3, 1]
 Output: 4
 Explanation: Maximum stolen value: arr[0] + arr[2] = 1 + 3 = 4
 
+Input: arr[] = [2, 2, 3, 1, 2]
+Output: 5
+Explanation: Maximum stolen value: arr[0] + arr[2] = 2 + 3 = 5 or arr[2] + arr[4] = 3 + 2 = 5
+
+
+ANSWER :-
+
 
