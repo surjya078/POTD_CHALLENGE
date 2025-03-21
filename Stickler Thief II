@@ -7,4 +7,8 @@ Note: Since the houses are in a circle, the first and last houses are also consi
 
 Examples :-
 
+Input: arr[] = [2, 3, 2]
+Output: 3
+Explanation: arr[0] and arr[2] can't be robbed because they are adjacent houses. Thus, 3 is the maximum value thief can rob.
+
 
