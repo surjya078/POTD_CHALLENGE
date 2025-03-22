@@ -18,3 +18,10 @@ Input: digits = "90"
 Output: 0
 Explanation: "90" cannot be decoded, as it's an invalid string and we cannot decode '0'.
 
+Input: digits = "05"
+Output: 0
+Explanation: "05" cannot be mapped to "E" because of the leading zero ("5" is different from "05"), the string is not a valid encoding message.
+
+
+ANSWER :-
+
