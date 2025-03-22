@@ -14,3 +14,7 @@ Input: digits = "123"
 Output: 3
 Explanation: "123" can be decoded as "ABC"(1, 2, 3), "LC"(12, 3) and "AW"(1, 23).
 
+Input: digits = "90"
+Output: 0
+Explanation: "90" cannot be decoded, as it's an invalid string and we cannot decode '0'.
+
