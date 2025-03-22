@@ -10,3 +10,7 @@ You are given a string digits. You have to determine the total number of ways th
 
 Examples :-
 
+Input: digits = "123"
+Output: 3
+Explanation: "123" can be decoded as "ABC"(1, 2, 3), "LC"(12, 3) and "AW"(1, 23).
+
