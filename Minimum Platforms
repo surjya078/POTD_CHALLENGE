@@ -11,4 +11,8 @@ Input: arr[] = [900, 940, 950, 1100, 1500, 1800], dep[] = [910, 1200, 1120, 1130
 Output: 3
 Explanation: There are three trains during the time 9:40 to 12:00. So we need a minimum of 3 platforms.
 
+Input: arr[] = [900, 1235, 1100], dep[] = [1000, 1240, 1200]
+Output: 1
+Explanation: All train times are mutually exclusive. So we need only one platform
+
 
