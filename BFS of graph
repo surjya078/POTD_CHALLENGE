@@ -29,7 +29,7 @@ Visit 4 (the next neighbor of 2) → Final Output: 0, 1, 2, 3, 4
 
 ANSWER :-
 
-class Solution {
+class Solution { 
     // Function to return Breadth First Search Traversal of given graph.
     public ArrayList<Integer> bfs(ArrayList<ArrayList<Integer>> adj) {
         ArrayList<Integer> bfsTraversal = new ArrayList<>();
