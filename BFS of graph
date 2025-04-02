@@ -5,7 +5,7 @@ from left to right according to the given adjacency list, and return a list cont
 BFS traversal of the graph.
 
 Note: Do traverse in the same order as they are in the given adjacency list.
-
+ 
 Examples: 
  
 Input: adj[][] = [[2, 3, 1], [0], [0, 4], [0], [2]] .
