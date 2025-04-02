@@ -4,7 +4,7 @@ Note: Do traverse in the same order as they are in the given adjacency list.
 
 Examples: 
 
-Input: adj[][] = [[2, 3, 1], [0], [0, 4], [0], [2]]
+Input: adj[][] = [[2, 3, 1], [0], [0, 4], [0], [2]] .
 Output: [0, 2, 3, 1, 4]
 Explanation: Starting from 0, the BFS traversal will follow these steps: 
 Visit 0 → Output: 0 
