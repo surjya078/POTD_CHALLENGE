@@ -2,7 +2,7 @@ Given a connected undirected graph containing V vertices, represented by a 2-d a
 
 Note: Do traverse in the same order as they are in the given adjacency list.
 
-Examples:
+Examples: 
 
 Input: adj[][] = [[2, 3, 1], [0], [0, 4], [0], [2]]
 Output: [0, 2, 3, 1, 4]
