@@ -18,3 +18,10 @@ Input: mat[][] = [[2, 2, 0, 1]]
 Output: -1
 Explanation: Oranges at (0,0) and (0,1) can't rot orange at (0,3).
 
+Input: mat[][] = [[2, 2, 2], [0, 2, 0]]
+Output: 0
+Explanation: There is no fresh orange. 
+
+
+ANSWER :-
+
