@@ -2,3 +2,5 @@ Given a matrix mat[][] of dimension n * m where each cell in the matrix can have
 0 : Empty cell
 1 : Cell have fresh oranges
 2 : Cell have rotten oranges
+
+We have to determine what is the earliest time after which all the oranges are rotten. A rotten orange at index (i, j) can rot other fresh orange at indexes (i-1, j), (i+1, j), (i, j-1), (i, j+1) (up, down, left and right) in a unit time.
