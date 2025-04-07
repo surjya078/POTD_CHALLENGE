@@ -6,3 +6,6 @@ Input: V = 4, edges[][] = [[0, 1], [1, 2], [2, 3], [3, 3]]
 Output: true
 Explanation: 3 -> 3 is a cycle
 
+Input: V = 3, edges[][] = [[0, 1], [1, 2]]
+Output: false
+Explanation: no cycle in the graph
