@@ -13,7 +13,7 @@ Explanation: no cycle in the graph
 ANSWER :-
 
 class Solution {
-    public boolean isCyclic(int V, int[][] edges) {
+    public boolean isCyclic(int V, int[][] edges) { 
         List<List<Integer>> graph = new ArrayList<>() ; 
         int[] indegree = new int[V] ; 
         for(int i = 0 ; i < V ; i++){
